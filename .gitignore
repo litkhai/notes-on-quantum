@@ -10,3 +10,7 @@ site/
 .tmp/
 artifacts/
 /quantum-computing-120min-stories.pptx
+
+# Vercel build output and local link
+public/
+.vercel/

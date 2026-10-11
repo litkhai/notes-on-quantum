@@ -18,7 +18,7 @@ hide:
 [상세 심화 읽기](02-deep-dive/README.md){ .md-button }
 [주요 플레이어](02-deep-dive/08-major-players.md){ .md-button }
 [Qiskit Aer 실험](04-simulations/README.md){ .md-button }
-[GitHub 저장소](https://github.com/litkhai/quantum-notes){ .md-button }
+[GitHub 저장소](https://github.com/litkhai/notes-on-quantum){ .md-button }
 
 </div>
 
@@ -99,6 +99,6 @@ Qiskit Aer 시뮬레이션은 `H-H`, `H-Z-H`, Bell 상태, 2큐비트 Grover와 
 - [논문과 공식 자료](03-reference/references.md)
 - [원문 보관소](archive/README.md)
 - [Git 저장소 안내](project-guide.md)
-- [GitHub 저장소](https://github.com/litkhai/quantum-notes)
+- [GitHub 저장소](https://github.com/litkhai/notes-on-quantum)
 
 <small>문서 기준일: 2026-08-11 · 시장·기업·표준 정보는 강의 전에 1차 출처에서 다시 확인합니다.</small>

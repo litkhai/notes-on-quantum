@@ -1,13 +1,13 @@
 site_name: Quantum Notes
 site_description: 양자컴퓨팅의 원리부터 하드웨어, 주요 플레이어와 산업 전망까지 정리한 한글 강의·학습 노트
-site_author: quantum-notes contributors
-site_url: https://litkhai.github.io/quantum-notes/
-repo_url: https://github.com/litkhai/quantum-notes
-repo_name: litkhai/quantum-notes
+site_author: notes-on-quantum contributors
+site_url: https://quantum.litkhai.dev/
+repo_url: https://github.com/litkhai/notes-on-quantum
+repo_name: litkhai/notes-on-quantum
 edit_uri: edit/main/
 
 docs_dir: docs
-site_dir: ../quantum-notes-site
+site_dir: ../notes-on-quantum-site
 
 theme:
   name: material
@@ -84,7 +84,7 @@ nav:
       - 논문·공식 자료: 03-reference/references.md
   - 프로젝트:
       - Git 저장소 안내: project-guide.md
-      - 기여 방법: https://github.com/litkhai/quantum-notes/blob/main/CONTRIBUTING.md
+      - 기여 방법: https://github.com/litkhai/notes-on-quantum/blob/main/CONTRIBUTING.md
       - 원문 보관소:
           - 보관소 안내: archive/README.md
           - 최초 통합 초안: archive/initial-draft.md
@@ -138,7 +138,7 @@ extra:
     update: 갱신 필요
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/litkhai/quantum-notes
+      link: https://github.com/litkhai/notes-on-quantum
       name: GitHub 저장소
   generator: false
 
