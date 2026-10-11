@@ -15,7 +15,7 @@
 | 잡음 Bell 상태 | 게이트·측정 오류의 영향 | `01`, `10` 출현 |
 | 2큐비트 Grover | 오라클과 확산의 진폭 증폭 | 표시 상태 `11` 100% |
 
-회로 정의는 [`simulations/circuits.py`](https://github.com/litkhai/quantum-notes/blob/main/simulations/circuits.py), 실행과 보고서 생성은 [`simulations/run.py`](https://github.com/litkhai/quantum-notes/blob/main/simulations/run.py)에서 관리한다.
+회로 정의는 [`simulations/circuits.py`](https://github.com/litkhai/notes-on-quantum/blob/main/simulations/circuits.py), 실행과 보고서 생성은 [`simulations/run.py`](https://github.com/litkhai/notes-on-quantum/blob/main/simulations/run.py)에서 관리한다.
 
 ## 로컬 실행
 

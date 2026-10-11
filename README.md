@@ -1,9 +1,9 @@
 # Quantum Notes
-https://litkhai.github.io/quantum-notes/
+https://quantum.litkhai.dev/
 
 양자컴퓨팅의 이론적 원리부터 하드웨어, 산업 생태계와 시장 전망까지 한글로 정리하는 학습·읽기 자료 저장소다. 120분 비기너 코스는 첫 학습 경로이며, 장문 입문 본문과 심화 노트는 주제별로 계속 확장한다.
 
-- GitHub: [litkhai/quantum-notes](https://github.com/litkhai/quantum-notes)
+- GitHub: [litkhai/notes-on-quantum](https://github.com/litkhai/notes-on-quantum)
 - 기본 브랜치: `main`
 - 문서 기준일: 2026-08-11
 - 대상: 일반인·비전공자·기술 및 산업 관계자
@@ -60,7 +60,7 @@ Qiskit Aer로 간섭, Bell 상태, 2큐비트 Grover와 잡음의 영향을 재�
 ## 저장소 구조
 
 ```text
-quantum-notes/
+notes-on-quantum/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── mkdocs.yml
@@ -78,7 +78,7 @@ quantum-notes/
     └── archive/
 ```
 
-구조, 수정 흐름과 GitHub Pages 자동 배포는 [Git 저장소 안내](docs/project-guide.md)에 정리했다.
+구조, 수정 흐름과 Vercel 자동 배포는 [Git 저장소 안내](docs/project-guide.md)에 정리했다.
 
 ## 공통 참고자료
 
@@ -93,14 +93,14 @@ quantum-notes/
 GitHub에서 Markdown 문서를 직접 읽어도 된다. 로컬에서 편집하려면 다음과 같이 복제한다.
 
 ```bash
-git clone https://github.com/litkhai/quantum-notes.git
-cd quantum-notes
+git clone https://github.com/litkhai/notes-on-quantum.git
+cd notes-on-quantum
 ```
 
-문서는 GitHub에서 직접 읽거나 GitHub Pages 사이트에서 검색·탐색할 수 있다. GitHub에서는 Markdown 원문을 바로 제공한다.
+문서는 GitHub에서 직접 읽거나 문서 사이트에서 검색·탐색할 수 있다. GitHub에서는 Markdown 원문을 바로 제공한다.
 
-- 문서 사이트: [Quantum Notes GitHub Pages](https://litkhai.github.io/quantum-notes/)
-- 저장소: [litkhai/quantum-notes](https://github.com/litkhai/quantum-notes)
+- 문서 사이트: [quantum.litkhai.dev](https://quantum.litkhai.dev/) (Vercel; 옛 GitHub Pages 주소는 같은 경로로 넘겨준다)
+- 저장소: [litkhai/notes-on-quantum](https://github.com/litkhai/notes-on-quantum)
 
 사이트를 로컬에서 미리 보려면 Python 3 환경에서 다음을 실행한다.
 

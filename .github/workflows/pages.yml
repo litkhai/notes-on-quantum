@@ -1,4 +1,4 @@
-name: Deploy documentation to GitHub Pages
+name: Deploy GitHub Pages redirect
 
 on:
   push:
@@ -38,13 +38,24 @@ jobs:
         with:
           enablement: true
 
+      # The site is served by Vercel at https://quantum.litkhai.dev. Pages keeps
+      # litkhai.github.io/notes-on-quantum/ alive by publishing one redirect
+      # stub per built page, each sending to the same path on the new host.
+      # The pre-rename path litkhai.github.io/quantum-notes/ is served by the
+      # litkhai.github.io repository (redirect/quantum-notes/).
       - name: Build site
-        run: mkdocs build --strict --site-dir "${RUNNER_TEMP}/quantum-notes-site"
+        run: mkdocs build --strict --site-dir "${RUNNER_TEMP}/notes-on-quantum-site"
+
+      - name: Generate redirect stubs
+        run: >
+          python scripts/pages-redirect.py
+          "${RUNNER_TEMP}/notes-on-quantum-site" "${RUNNER_TEMP}/pages-redirect"
+          https://quantum.litkhai.dev /notes-on-quantum
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ${{ runner.temp }}/quantum-notes-site
+          path: ${{ runner.temp }}/pages-redirect
 
   deploy:
     environment:

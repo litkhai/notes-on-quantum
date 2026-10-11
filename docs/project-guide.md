@@ -1,13 +1,13 @@
 # Git 저장소 안내
 
-[문서 사이트 홈](index.md) · [GitHub 저장소](https://github.com/litkhai/quantum-notes) · [기여 가이드](https://github.com/litkhai/quantum-notes/blob/main/CONTRIBUTING.md)
+[문서 사이트 홈](index.md) · [GitHub 저장소](https://github.com/litkhai/notes-on-quantum) · [기여 가이드](https://github.com/litkhai/notes-on-quantum/blob/main/CONTRIBUTING.md)
 
 ## 저장소의 목적
 
-`litkhai/quantum-notes`는 양자컴퓨팅 강의와 학습·읽기 자료를 Markdown으로 관리하는 공개 Git 저장소다. 120분 비기너 코스는 입문 경로를 제공하고, 장문 본문과 심화 노트는 원리·하드웨어·보안·산업 주제를 지속해서 확장한다. 하나의 자료를 세 가지 방식으로 활용한다.
+`litkhai/notes-on-quantum`는 양자컴퓨팅 강의와 학습·읽기 자료를 Markdown으로 관리하는 공개 Git 저장소다. 120분 비기너 코스는 입문 경로를 제공하고, 장문 본문과 심화 노트는 원리·하드웨어·보안·산업 주제를 지속해서 확장한다. 하나의 자료를 세 가지 방식으로 활용한다.
 
 1. GitHub에서 Markdown 원문 열람
-2. GitHub Pages에서 검색과 내비게이션을 갖춘 웹사이트 열람
+2. 문서 사이트(quantum.litkhai.dev)에서 검색과 내비게이션을 갖춘 웹사이트 열람
 3. 로컬 편집기에서 강의 준비·검토·수정
 
 Git 커밋은 문서가 언제, 왜 바뀌었는지 기록한다. Pull Request와 Issue는 수정 제안, 근거 검토와 토론에 사용한다.
@@ -17,34 +17,35 @@ Git 커밋은 문서가 언제, 왜 바뀌었는지 기록한다. Pull Request�
 ```text
 docs/의 Markdown 원문
         ↓ push to main
-GitHub Actions: MkDocs 빌드
+Vercel: MkDocs 빌드와 배포
         ↓
-GitHub Pages 배포
-        ↓
-https://litkhai.github.io/quantum-notes/
+https://quantum.litkhai.dev/
 ```
 
-`docs/`가 게시 문서의 원본이다. `main` 브랜치에 변경사항이 들어오면 [Pages 워크플로](https://github.com/litkhai/quantum-notes/actions/workflows/pages.yml)가 MkDocs로 HTML을 생성하고 GitHub Pages에 배포한다.
+`docs/`가 게시 문서의 원본이다. `main` 브랜치에 변경사항이 들어오면 Vercel 프로젝트 `notes-on-quantum`이 `vercel.json`의 명령으로 MkDocs HTML을 생성해 `quantum.litkhai.dev`에 배포한다. Pull Request마다 미리보기 배포가 붙는다.
 
-사이트에서 보이는 제목·표·수식·링크는 대응하는 Markdown 파일에서 관리한다. 생성된 HTML은 GitHub Actions가 관리하는 배포 산출물이다.
+옛 주소 `litkhai.github.io/quantum-notes/`와 `litkhai.github.io/notes-on-quantum/`은 같은 경로의 새 주소로 넘겨준다. [Pages 워크플로](https://github.com/litkhai/notes-on-quantum/actions/workflows/pages.yml)는 문서 대신 페이지별 이동 안내만 GitHub Pages에 게시한다.
+
+사이트에서 보이는 제목·표·수식·링크는 대응하는 Markdown 파일에서 관리한다. 생성된 HTML은 Vercel이 관리하는 배포 산출물이다.
 
 ## 디렉터리 구조
 
 ```text
-quantum-notes/
+notes-on-quantum/
 ├── README.md                 # GitHub 저장소 첫 화면
 ├── CONTRIBUTING.md           # 작성·검토·Git 작업 규칙
 ├── mkdocs.yml                # 사이트 내비게이션과 테마 설정
+├── vercel.json               # Vercel 빌드 명령과 응답 헤더
 ├── requirements-docs.txt     # 문서 빌드 도구 버전
 ├── requirements-simulations.txt # Qiskit Aer 고정 버전
 ├── simulations/              # 회로·실행·보고서 생성 코드
 ├── tests/                    # 시뮬레이션 회귀 테스트
 ├── .github/workflows/
-│   ├── pages.yml             # GitHub Pages 자동 배포
+│   ├── pages.yml             # 옛 GitHub Pages 주소의 이동 안내
 │   └── simulations.yml       # Qiskit Aer 자동 검증
 ├── docs-overrides/           # 사이트 템플릿 확장
 └── docs/
-    ├── index.md              # GitHub Pages 첫 화면
+    ├── index.md              # 문서 사이트 첫 화면
     ├── 01-beginner-lecture/  # 120분 입문 강의
     ├── 02-deep-dive/         # 원리·산업 심화 노트
     ├── 03-reference/         # FAQ·용어·출처
@@ -56,7 +57,7 @@ quantum-notes/
 ### `README.md`와 `docs/index.md`
 
 - 루트 `README.md`: 저장소의 목적, 주요 문서 링크, 복제와 빌드 방법
-- `docs/index.md`: GitHub Pages 방문자를 위한 학습 경로와 빠른 탐색
+- `docs/index.md`: 문서 사이트 방문자를 위한 학습 경로와 빠른 탐색
 
 두 파일은 독자의 진입 경로가 다르므로 각각 관리한다.
 
@@ -75,8 +76,8 @@ quantum-notes/
 ### 1. 저장소 복제
 
 ```bash
-git clone https://github.com/litkhai/quantum-notes.git
-cd quantum-notes
+git clone https://github.com/litkhai/notes-on-quantum.git
+cd notes-on-quantum
 ```
 
 ### 2. 작업 브랜치 생성
@@ -106,7 +107,7 @@ python -m pip install -r requirements-docs.txt
 mkdocs serve
 ```
 
-기본 미리보기 주소는 `http://127.0.0.1:8000/quantum-notes/`다. 배포와 같은 엄격 검사를 실행할 때는 다음 명령을 사용한다.
+기본 미리보기 주소는 `http://127.0.0.1:8000/`다. 배포와 같은 엄격 검사를 실행할 때는 다음 명령을 사용한다.
 
 ```bash
 mkdocs build --strict
@@ -135,15 +136,13 @@ Pull Request에는 변경 목적, 주요 근거, 기준일과 검증 명령을 �
 
 ## 자동 배포 흐름
 
-`main` 브랜치에 push가 발생하면 워크플로가 다음 순서로 실행된다.
+`main` 브랜치에 push가 발생하면 Vercel이 다음 순서로 배포한다.
 
-1. 저장소 체크아웃
-2. Python과 고정된 MkDocs 패키지 설치
-3. `mkdocs build --strict` 실행
-4. Pages 배포용 artifact 업로드
-5. GitHub Pages 환경에 배포
+1. 고정된 MkDocs 패키지 설치 (`requirements-docs.txt`)
+2. `mkdocs build --strict` 실행
+3. `quantum.litkhai.dev`에 프로덕션 배포
 
-배포 상태는 [Actions 페이지](https://github.com/litkhai/quantum-notes/actions)에서 확인한다. 성공한 실행에는 배포된 사이트 주소가 표시된다.
+배포 상태는 커밋과 Pull Request의 Vercel 체크에서 확인한다. 같은 push에서 Pages 워크플로는 사이트를 한 번 더 빌드해 페이지마다 새 주소로 넘겨주는 안내 페이지를 GitHub Pages에 게시한다(`scripts/pages-redirect.py`).
 
 `simulations.yml` 워크플로는 Qiskit Aer 코드를 별도로 검증한다. 단위 테스트를 실행하고 결과 문서를 다시 생성한 뒤, 커밋된 결과와 차이가 있는지 확인한다.
 
@@ -170,6 +169,6 @@ Git 이력은 문서의 버전 기록으로 사용한다.
 - 기업·시장 정보에는 기준일과 공식 출처를 기록한다.
 - 기존 원문의 역사적 맥락은 `docs/archive/`에서 유지한다.
 
-세부 작성 규칙은 [CONTRIBUTING.md](https://github.com/litkhai/quantum-notes/blob/main/CONTRIBUTING.md)를 따른다.
+세부 작성 규칙은 [CONTRIBUTING.md](https://github.com/litkhai/notes-on-quantum/blob/main/CONTRIBUTING.md)를 따른다.
 
-[문서 사이트 홈](index.md) · [GitHub 저장소](https://github.com/litkhai/quantum-notes) · [기여 가이드](https://github.com/litkhai/quantum-notes/blob/main/CONTRIBUTING.md)
+[문서 사이트 홈](index.md) · [GitHub 저장소](https://github.com/litkhai/notes-on-quantum) · [기여 가이드](https://github.com/litkhai/notes-on-quantum/blob/main/CONTRIBUTING.md)
