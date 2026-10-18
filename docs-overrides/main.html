@@ -1,5 +1,27 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+  {{ super() }}
+  {%- set og_title = config.site_name if (page and page.is_homepage) else ((page.title | striptags) ~ " - " ~ config.site_name) -%}
+  {%- set og_description = (page.meta.description if (page and page.meta and page.meta.description) else config.site_description) -%}
+  {%- set og_image = config.site_url ~ "docs-assets/images/og.png" -%}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name | e }}">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="{{ og_title | e }}">
+  <meta property="og:description" content="{{ og_description | e }}">
+  {% if page and page.canonical_url %}<meta property="og:url" content="{{ page.canonical_url }}">{% endif %}
+  <meta property="og:image" content="{{ og_image }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Quantum Notes — 양자컴퓨팅의 원리에서 산업까지">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title | e }}">
+  <meta name="twitter:description" content="{{ og_description | e }}">
+  <meta name="twitter:image" content="{{ og_image }}">
+{% endblock %}
+
 {% block announce %}
   강의·시장 자료 기준일은 <strong>{{ config.extra.reference_date }}</strong>입니다.
   기업 로드맵과 시장 수치는 원문에서 다시 확인하세요.
