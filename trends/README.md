@@ -6,6 +6,7 @@
 ## 변경 이력
 - 2026-10-18 오전: 최초 구축(102건), 주요 항목 GitHub 이슈 #14–#22 기록.
 - 2026-10-18 업데이트 패스: 최근 2주(10/4–10/18) 신규 25건 추가(하드웨어 2·시장 7·PQC 6·소프트웨어 10) → 총 127건. 신규 이슈 #24(PQC 정부 시한)·#25(Oratomic)·#26(구글 모듈형 쌍곡 코드), `software` 라벨 생성.
+- 2026-10-19 주간 업데이트(첫 정기 실행): 신규 11건(하드웨어 2·시장 3·PQC 4·소프트웨어 2) → 총 138건. 신규 이슈 #35(AI 암호분석으로 NIST 서명 후보 HAWK 철회). `build.py`에 선택적 10번째 튜플 필드 `added`(인덱스 추가일)를 도입하고, INDEX.md의 '최종 업데이트'를 최신 `added`에서 자동 계산.
 
 ## 파일 구조
 | 파일 | 설명 |
@@ -33,7 +34,7 @@
 2. **중복 제거 기준 = `url`** (정규화: 끝 슬래시·추적 파라미터 제거 후 비교). 이미 있는 URL이면 추가하지 않고, 내용이 바뀌었으면 해당 레코드만 갱신.
    같은 사건의 다른 매체 기사는 가능하면 1차 출처(보도자료·논문) 하나만 유지.
 3. (GitHub 이슈) 주요 항목을 이슈로 기록하면 `build/github_issues.json`에 url→이슈 URL을 추가하면 빌드 시 `github_issue` 필드와 INDEX.md 링크가 생성됨.
-   방법 A(권장): `build/items_<cat>.py`에 튜플 추가 → 이 디렉터리에서 `python3 build/build.py` 실행(저장소 루트에서는 `python3 trends/build/build.py`) → `index.jsonl`, `index.json`, `INDEX.md` 재생성(빌드가 URL 중복 시 assert로 중단).
+   방법 A(권장): `build/items_<cat>.py`에 튜플 추가(10번째 필드로 추가일 `"YYYY-MM-DD"`를 넣는다. 생략 시 2026-10-18) → 이 디렉터리에서 `python3 build/build.py` 실행(저장소 루트에서는 `python3 trends/build/build.py`) → `index.jsonl`, `index.json`, `INDEX.md` 재생성(빌드가 URL 중복 시 assert로 중단).
    방법 B: `index.jsonl`에 직접 한 줄 추가 후 INDEX.md를 수작업 갱신.
 4. `build/takeaways.json`의 분야별 핵심 시사점을 최신 흐름에 맞게 수정.
 5. 빌드는 `build/`의 부모(`trends/`)에만 쓴다. 출력 경로는 스크립트 위치에서 계산한다.
