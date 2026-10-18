@@ -101,5 +101,3 @@ Qiskit Aer 시뮬레이션은 `H-H`, `H-Z-H`, Bell 상태, 2큐비트 Grover와 
 - [원문 보관소](archive/README.md)
 - [Git 저장소 안내](project-guide.md)
 - [GitHub 저장소](https://github.com/litkhai/notes-on-quantum)
-
-<small>문서 기준일: 2026-08-11 · 시장·기업·표준 정보는 강의 전에 1차 출처에서 다시 확인합니다.</small>
