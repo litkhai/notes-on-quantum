@@ -134,6 +134,8 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
+  # Site as-of date for the banner, footer, and homepage. Lecture pages keep their own dates.
+  reference_date: "2026-10-18"
   status:
     current: 현재 강의 자료
     update: 갱신 필요
@@ -143,7 +145,7 @@ extra:
       name: GitHub 저장소
   generator: false
 
-copyright: 기준일 2026-08-11 · 교육용 자료 · 기업 로드맵과 시장 전망은 원문에서 재확인하세요.
+copyright: 교육용 자료 · 기업 로드맵과 시장 전망은 원문에서 재확인하세요.
 
 validation:
   nav:

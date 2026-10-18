@@ -5,7 +5,7 @@ https://quantum.litkhai.dev/
 
 - GitHub: [litkhai/notes-on-quantum](https://github.com/litkhai/notes-on-quantum)
 - 기본 브랜치: `main`
-- 문서 기준일: 2026-08-11
+- 문서 기준일: `mkdocs.yml`의 `extra.reference_date` (사이트 배너·바닥글·홈 하단과 같은 값)
 - 대상: 일반인·비전공자·기술 및 산업 관계자
 - 성격: Markdown 기반 강의·학습 노트
 
