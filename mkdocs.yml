@@ -8,6 +8,8 @@ edit_uri: edit/main/
 
 docs_dir: docs
 site_dir: ../notes-on-quantum-site
+hooks:
+  - hooks/reference_date.py
 
 theme:
   name: material
@@ -134,7 +136,8 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
-  # Site as-of date for the banner, footer, and homepage. Lecture pages keep their own dates.
+  # Single as-of date. Templates read it directly. hooks/reference_date.py
+  # fills {{ reference_date }} and {{ reference_date_ko }} in Markdown.
   reference_date: "2026-10-18"
   status:
     current: 현재 강의 자료
