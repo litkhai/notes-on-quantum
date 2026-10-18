@@ -1,7 +1,7 @@
 # Quantum Notes
 https://quantum.litkhai.dev/
 
-양자컴퓨팅의 이론적 원리부터 하드웨어, 산업 생태계와 시장 전망까지 한글로 정리하는 학습·읽기 자료 저장소다. 120분 비기너 코스는 첫 학습 경로이며, 장문 입문 본문과 심화 노트는 주제별로 계속 확장한다.
+양자컴퓨팅의 이론적 원리부터 하드웨어, 산업 생태계와 시장 전망까지 한글로 정리하는 학습·읽기 자료 저장소다. 180분 비기너 코스는 첫 학습 경로이며, 장문 입문 본문과 심화 노트는 주제별로 계속 확장한다.
 
 - GitHub: [litkhai/notes-on-quantum](https://github.com/litkhai/notes-on-quantum)
 - 기본 브랜치: `main`
@@ -13,12 +13,12 @@ https://quantum.litkhai.dev/
 
 ## 학습 경로
 
-### 1. 비전공자를 위한 2시간 세션 강의
+### 1. 비전공자를 위한 3시간 세션 강의
 
-**이론 설명과 산업·시장 이해를 위한 120분 세션**이다.
+**이론 설명과 산업·시장 이해를 위한 180분 세션**이다. 발표 덱의 다섯 장을 따른다.
 
-- 전반부: 큐비트, 중첩, 위상, 간섭, 얽힘과 알고리즘의 한계
-- 후반부: 하드웨어 방식, 오류 정정, 산업 가치사슬, 수익 모델과 시장 성숙도
+- 1·2장: 양자역학의 역사(뽑기, 고양이, 벨 실험, 이중슬릿), 큐비트·간섭·얽힘, Grover와 데모, 샷과 오류 정정
+- 3·4장: 화학·최적화·금융·보안 유즈케이스, 하드웨어, 추상화, 클라우드 비용, GPU의 역사, 시장 숫자
 - 선수지식: 없음
 - 수식: 개념을 설명하는 최소 수준
 
@@ -29,7 +29,8 @@ https://quantum.litkhai.dev/
 - [입문 강의 본문](docs/01-beginner-lecture/lecture-notes.md)
 - [수강생 핸드아웃](docs/01-beginner-lecture/session-handout.md)
 - [강사용 가이드](docs/01-beginner-lecture/instructor-guide.md)
-- [120분 진행표](docs/01-beginner-lecture/runsheet.md)
+- [배경 이론](docs/01-beginner-lecture/background-theory.md)
+- [180분 진행표](docs/01-beginner-lecture/runsheet.md)
 - [슬라이드 구성안](docs/01-beginner-lecture/slide-outline.md)
 - [산업·시장 브리프](docs/01-beginner-lecture/industry-market-brief.md)
 

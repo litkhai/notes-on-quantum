@@ -1,6 +1,6 @@
 # 양자컴퓨팅 상세 심화 과정
 
-[전체 홈](../index.md) · [입문 강의 본문](../01-beginner-lecture/lecture-notes.md) · [2시간 입문 강의](../01-beginner-lecture/README.md) · [FAQ](../03-reference/faq.md)
+[전체 홈](../index.md) · [입문 강의 본문](../01-beginner-lecture/lecture-notes.md) · [3시간 입문 강의](../01-beginner-lecture/README.md) · [FAQ](../03-reference/faq.md)
 
 이 과정은 양자컴퓨팅의 원리, 수식, 알고리즘의 조건, 하드웨어와 산업 근거를 주제별 읽기 자료로 다룬다. 입문 강의 다음 순서로 읽거나 관심 분야의 장부터 시작할 수 있다.
 
@@ -47,7 +47,7 @@ H 게이트와 간섭에서 시작해 Grover의 진폭 증폭, Shor의 구조와
 
 ## 입문 강의와 심화 과정의 차이
 
-| 2시간 입문 | 상세 심화 |
+| 3시간 입문 | 상세 심화 |
 |---|---|
 | 직관과 시연 중심 | 수식·조건·예외까지 설명 |
 | Grover를 대표 사례로 사용 | Grover를 다른 알고리즘과 구분 |
@@ -129,4 +129,4 @@ H 게이트와 간섭에서 시작해 Grover의 진폭 증폭, Shor의 구조와
 - [핵심 용어 사전](../03-reference/glossary.md)
 - [논문과 공식 자료](../03-reference/references.md)
 
-[전체 홈](../index.md) · [입문 강의 본문](../01-beginner-lecture/lecture-notes.md) · [2시간 입문 강의](../01-beginner-lecture/README.md) · [첫 장 시작](01-quantum-origins.md)
+[전체 홈](../index.md) · [입문 강의 본문](../01-beginner-lecture/lecture-notes.md) · [3시간 입문 강의](../01-beginner-lecture/README.md) · [첫 장 시작](01-quantum-origins.md)

@@ -19,7 +19,7 @@
 | 9 | [QED-C: State of the Global Quantum Industry 2026](https://quantumconsortium.org/publication/2026-state-of-the-global-quantum-industry-report/) | 시장 규모, 투자, 인력과 기업 수는 어떤 방법으로 집계되는가? | 산업 |
 | 10 | [NIST: Post-Quantum Cryptography](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography) | 양자컴퓨터의 완성 시점과 무관하게 지금 진행되는 보안 전환은 무엇인가? | 정책·보안 |
 
-## 경로 A: 120분 강의를 들은 뒤
+## 경로 A: 180분 강의를 들은 뒤
 
 강의의 핵심 문장을 다른 설명 방식으로 다시 확인하는 경로다. 수식보다 개념과 전체 구조를 우선한다.
 
