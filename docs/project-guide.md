@@ -40,6 +40,7 @@ notes-on-quantum/
 ├── requirements-simulations.txt # Qiskit Aer 고정 버전
 ├── simulations/              # 회로·실행·보고서 생성 코드
 ├── tests/                    # 시뮬레이션 회귀 테스트
+├── trends/                   # 동향 인덱스. 사이트 메뉴 밖, `build/build.py`가 INDEX.md를 다시 씀
 ├── .github/workflows/
 │   ├── pages.yml             # 옛 GitHub Pages 주소의 이동 안내
 │   └── simulations.yml       # Qiskit Aer 자동 검증

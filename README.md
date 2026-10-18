@@ -57,6 +57,14 @@ Qiskit Aer로 간섭, Bell 상태, 2큐비트 Grover와 잡음의 영향을 재�
 - 실행 명령: `python -m simulations.run`
 - ClickHouse 관측성 데모: `python -m simulations.clickhouse_demo`
 
+### 4. 동향 인덱스
+
+`trends/`는 하드웨어, 시장, 양자내성암호, 소프트웨어의 최근 자료를 날짜·출처·중요도와 함께 모아 둔 인덱스다. 강의 본문과 문서 사이트 메뉴와는 별도로 저장소에만 버전 관리한다.
+
+- [한국어 인덱스](trends/INDEX.md)
+- [갱신 방법](trends/README.md)
+- 재생성: `python3 trends/build/build.py`
+
 ## 저장소 구조
 
 ```text
@@ -68,6 +76,7 @@ notes-on-quantum/
 ├── requirements-simulations.txt
 ├── simulations/
 ├── tests/
+├── trends/                 # 동향 인덱스 (사이트 내비게이션 밖)
 └── docs/
     ├── index.md
     ├── 01-beginner-lecture/

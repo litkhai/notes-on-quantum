@@ -15,6 +15,7 @@
 | 시뮬레이션 테스트 | `tests/` |
 | 자동 생성 결과와 해설 | `docs/04-simulations/` |
 | 폐기하지 않을 초기 원문·과거 초안 | `docs/archive/` |
+| 하드웨어·시장·PQC·소프트웨어 동향 인덱스 | `trends/` (`INDEX.md`는 `python3 trends/build/build.py`로 재생성) |
 
 초보 문서가 길어지면 세부 설명을 심화 문서로 옮기고 링크한다. 같은 상세 설명을 두 위치에 중복 작성하지 않는다.
 
