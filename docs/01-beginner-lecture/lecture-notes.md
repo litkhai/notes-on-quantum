@@ -1,8 +1,8 @@
 # 입문 강의 본문: 원리에서 산업까지
 
-[과정 안내](README.md) · [수강생 핸드아웃](session-handout.md) · [120분 상세 진행표](runsheet.md) · [용어 사전](../03-reference/glossary.md)
+[과정 안내](README.md) · [수강생 핸드아웃](session-handout.md) · [180분 상세 진행표](runsheet.md) · [배경 이론](background-theory.md) · [용어 사전](../03-reference/glossary.md)
 
-> 기준일: 2026-08-11. 이 문서는 120분 강의의 설명 순서를 따라가는 읽기 자료다. 기술 이정표, 기업 전략과 시장 수치는 링크된 원문에서 기준일과 범위를 함께 확인한다.
+> 기준일: 2026-08-11. 이 문서는 입문 강의의 원리·산업 흐름을 서술형으로 읽는 자료다. 180분 강의의 역사 실험(이중슬릿·고양이·벨), 유즈케이스 알고리즘(VQE·QPE·QAOA·QAE·BB84), 클라우드 과금과 GPU 비교는 [배경 이론](background-theory.md)에서 이어진다. 기술 이정표, 기업 전략과 시장 수치는 링크된 원문에서 기준일과 범위를 함께 확인한다.
 
 ## 1. 양자컴퓨팅을 바라보는 네 질문
 
@@ -68,7 +68,7 @@
 한 큐비트의 순수상태는 블로흐 구면의 한 점으로 나타낼 수 있다.
 
 \[
-|\psi\rangle=cos\frac{\theta}{2}|0\rangle
+|\psi\rangle=\cos\frac{\theta}{2}|0\rangle
 +e^{i\phi}\sin\frac{\theta}{2}|1\rangle
 \]
 
@@ -113,8 +113,8 @@
 두 개의 고전 비트는 `00`, `01`, `10`, `11` 네 상태 중 하나를 가진다. 두 큐비트의 일반적인 순수상태는 네 기저상태의 진폭을 함께 가진다.
 
 \[
-|\psi\rangle=alpha_{00}|00\rangle+alpha_{01}|01\rangle
-+\alpha_{10}|10\rangle+alpha_{11}|11\rangle
+|\psi\rangle=\alpha_{00}|00\rangle+\alpha_{01}|01\rangle
++\alpha_{10}|10\rangle+\alpha_{11}|11\rangle
 \]
 
 `n`개 큐비트에는 `2ⁿ`개의 진폭이 필요하다. 이 지수적 상태공간은 표현 능력의 원천이며 동시에 고전 시뮬레이션의 부담이다. 측정 한 번에서는 `n`비트 결과 하나를 얻으므로, 알고리즘은 필요한 전역 성질이 반복 측정 통계에 드러나도록 회로를 설계한다.
@@ -398,4 +398,4 @@ QED-C의 2026년 보고서는 2025년 양자컴퓨팅 시장 매출을 14억 달
 - 보안: [Shor·PQC·양자 난수](../02-deep-dive/07-security-and-randomness.md)
 - 질문별 탐색: [심화 FAQ](../03-reference/faq.md) · [용어 사전](../03-reference/glossary.md) · [참고자료](../03-reference/references.md)
 
-[과정 안내](README.md) · [수강생 핸드아웃](session-handout.md) · [120분 상세 진행표](runsheet.md) · [상세 심화 과정](../02-deep-dive/README.md)
+[과정 안내](README.md) · [수강생 핸드아웃](session-handout.md) · [180분 상세 진행표](runsheet.md) · [상세 심화 과정](../02-deep-dive/README.md)

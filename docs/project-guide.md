@@ -4,7 +4,7 @@
 
 ## 저장소의 목적
 
-`litkhai/notes-on-quantum`는 양자컴퓨팅 강의와 학습·읽기 자료를 Markdown으로 관리하는 공개 Git 저장소다. 120분 비기너 코스는 입문 경로를 제공하고, 장문 본문과 심화 노트는 원리·하드웨어·보안·산업 주제를 지속해서 확장한다. 하나의 자료를 세 가지 방식으로 활용한다.
+`litkhai/notes-on-quantum`는 양자컴퓨팅 강의와 학습·읽기 자료를 Markdown으로 관리하는 공개 Git 저장소다. 180분 비기너 코스는 입문 경로를 제공하고, 장문 본문과 심화 노트는 원리·하드웨어·보안·산업 주제를 지속해서 확장한다. 하나의 자료를 세 가지 방식으로 활용한다.
 
 1. GitHub에서 Markdown 원문 열람
 2. 문서 사이트(quantum.litkhai.dev)에서 검색과 내비게이션을 갖춘 웹사이트 열람
@@ -46,7 +46,7 @@ notes-on-quantum/
 ├── docs-overrides/           # 사이트 템플릿 확장
 └── docs/
     ├── index.md              # 문서 사이트 첫 화면
-    ├── 01-beginner-lecture/  # 120분 입문 강의
+    ├── 01-beginner-lecture/  # 180분 입문 강의
     ├── 02-deep-dive/         # 원리·산업 심화 노트
     ├── 03-reference/         # FAQ·용어·출처
     ├── 04-simulations/       # 실행 안내와 생성 결과
@@ -65,7 +65,7 @@ notes-on-quantum/
 
 | 위치 | 역할 | 대표 문서 |
 |---|---|---|
-| `docs/01-beginner-lecture/` | 비전공자 대상 120분 세션 | 장문 강의 본문, 핸드아웃, 상세 진행표, 강사 가이드 |
+| `docs/01-beginner-lecture/` | 비전공자 대상 180분 세션 | 장문 강의 본문, 배경 이론, 핸드아웃, 상세 진행표, 강사 가이드 |
 | `docs/02-deep-dive/` | 수식·조건·예외·산업 근거 | 큐비트, 오류 정정, 보안, 주요 플레이어 |
 | `docs/03-reference/` | 반복 참조 자료 | FAQ, 용어 사전, 공식 출처 |
 | `docs/04-simulations/` | 재현 가능한 계산 자료 | 실행 안내, Markdown·JSON 결과 |
