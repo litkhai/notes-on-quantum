@@ -45,3 +45,16 @@
 - IonQ–Elisity 인수 마감(2026 Q4), 양자 상장사 실적(QNT, PSQL, XNDU, INFQ, IONQ, RGTI, QBTS)
 - 한국 양자클러스터 실행계획(연내), KISTI HANGANG+IonQ 서비스(2027 상반기)
 - 구글 매직 스테이트 후속, IBM Kookaburra, Microsoft·Atom Computing Magne 가동
+
+## 정기 자동 실행 (주간 파이프라인)
+매주 월요일 오전 8시경(KST) Grok Bot 루틴 "주간 양자 동향 업데이트"가 아래 순서로 실행된다. 수동으로 돌릴 때도 같은 순서를 따른다.
+
+1. **조사**: 지난 실행 이후(약 7일) 4개 분야(하드웨어·연구 / 기업·투자·정부(한국 포함) / PQC·보안 / 소프트웨어·알고리즘·클라우드) 신규 소식을 웹·X 뉴스에서 수집. 실제 확인한 출처만 기록(사실·날짜·수치·URL 추정 금지).
+2. **인덱스 갱신**: 작업 사본(봇 저장소 `quantum-index/`)에 위 "업데이트 방법"대로 항목 추가 → `python3 build/build.py`로 재생성. `url` 기준 중복 제거, 한국어 요약, 중요도 1–5 부여, `build/takeaways.json` 필요 시 갱신, 이 README의 변경 이력에 한 줄 추가.
+3. **GitHub 이슈**: 중요도 4–5인 주요 사건만 `litkhai/notes-on-quantum`에 이슈로 기록.
+   - 제목·본문은 한국어: 요약, "왜 중요한가", 출처 링크, 인덱스 분야.
+   - 라벨: `hardware` / `market` / `pqc` / `software` (없으면 생성).
+   - 등록 전 열린·닫힌 이슈를 모두 확인해 같은 사건을 두 번 올리지 않는다. 사소한 항목은 올리지 않는다.
+   - 생성한 이슈 URL을 `build/github_issues.json`에 추가하고 다시 빌드.
+4. **저장소 반영**: 인덱스가 바뀌었으면 최신 `main`에서 브랜치를 만들어 `trends/`(최상위 파일)와 `trends/build/`(빌드 소스)를 교체 → 저장소 루트에서 `python3 trends/build/build.py`가 동일한 출력을 내는지 확인 → PR 생성 → 체크(Vercel 등) 통과 후 `main`에 머지.
+5. **보고**: Ken에게 Grok Bot 채팅으로 한국어 요약(분야별 주요 항목 링크, 생성한 이슈, 머지된 PR 링크). 새 소식이 없으면 한 줄로 알린다.
