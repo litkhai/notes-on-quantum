@@ -1,14 +1,14 @@
 # 양자 기술 동향 인덱스
 
-_최종 업데이트: 2026-10-18 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일부 '참고 항목'은 기준 문서로 그 이전 포함) · 총 127건_
+_최종 업데이트: 2026-10-19 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일부 '참고 항목'은 기준 문서로 그 이전 포함) · 총 138건_
 
 > ⭐ = 중요도(1~5). 주요 항목은 GitHub 이슈(litkhai/notes-on-quantum)로도 기록됨. 날짜가 `YYYY-MM` 또는 `YYYY`인 항목은 출처에서 정확한 일자를 확인하지 못한 경우입니다. 원본 데이터: `index.jsonl`
 
 ## 목차
-- [1. 양자컴퓨팅 하드웨어·연구 돌파구](#hardware) (29건)
-- [2. 기업·투자·시장 동향 (정부 프로그램 포함)](#market) (38건)
-- [3. 양자내성암호(PQC)·보안](#pqc) (30건)
-- [4. 양자 소프트웨어·알고리즘·클라우드](#software) (30건)
+- [1. 양자컴퓨팅 하드웨어·연구 돌파구](#hardware) (31건)
+- [2. 기업·투자·시장 동향 (정부 프로그램 포함)](#market) (41건)
+- [3. 양자내성암호(PQC)·보안](#pqc) (34건)
+- [4. 양자 소프트웨어·알고리즘·클라우드](#software) (32건)
 
 <a id="hardware"></a>
 ## 1. 양자컴퓨팅 하드웨어·연구 돌파구
@@ -20,6 +20,7 @@ _최종 업데이트: 2026-10-18 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
 - **이온트랩 고충실도·제조화 경쟁**: IonQ 99.99% 2큐비트 충실도→256큐비트 Superion(2027 인도)([IonQ](https://www.ionq.com/news/ionq-launches-superion-product-line-industry-leading-upgradeable-platform-designed-to-scale-manufacturable-fault-tolerant-quantum-computing)), qLDPC 손익분기 시연.
 - **위상(마요라나) 큐비트는 여전히 논쟁 중**: Microsoft Majorana 2(패리티 수명 ~20초, 2029 목표) 발표에도 학계 회의론 지속([Reuters](https://www.reuters.com/business/microsoft-reveals-new-quantum-chip-made-with-ai-says-it-will-have-systems-by-2026-06-02/)).
 - **(10월 2주 업데이트) 확장성 기반 기술 진전**: 리켄은 마이크로파 선 하나로 실리콘 스핀 큐비트 3개를 99.99% 이상으로 동시 제어했고([RIKEN](https://www.riken.jp/en/news_pubs/research_news/pr/2026/20261015_2/index.html)), 옥스퍼드는 혼합종 이온 네트워크 얽힘을 10초 이상 보존했다([Oxford](https://www.physics.ox.ac.uk/news/quantum-network-entangles-several-atoms-different-elements)).
+- **(10월 3주 업데이트) 데이터센터 배치·시뮬레이터 활용 확대**: ORCA가 상온 광자 PT-3를 런던 Digital Realty 데이터센터에서 NVIDIA GPU와 함께 가동([ORCA](https://orcacomputing.com/orca-computing-launches-pt-3-the-first-quantum-computer-built-for-commercial-quantum-advantage/)), D-Wave는 728큐비트로 3차원 고차 위상절연체의 벌크 불변량을 측정([arXiv](https://arxiv.org/abs/2610.16046)). 다만 에든버러대의 GBS 고전 에뮬레이터처럼 광자 장치의 우위 기준선도 함께 높아지는 중.
 
 ### 항목 (최신순)
 - **2026-10-15** [Bringing the magic: Google breaks open a bottleneck in quantum computing](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/) — Google (blog.google) ⭐⭐⭐⭐⭐ · [이슈 #14](https://github.com/litkhai/notes-on-quantum/issues/14)  
@@ -28,8 +29,12 @@ _최종 업데이트: 2026-10-18 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
   리켄 연구진이 마이크로파 선 하나를 공유하는 5큐비트 실리콘 스핀 배열에서, 최대 3개 큐비트를 동시에 구동해도 99.99% 이상의 단일 큐비트 게이트 충실도를 달성했다(5개 동시 구동 시 약 99.9%).
 - **2026-10-15** [Quantum network entangles several atoms of different elements](https://www.physics.ox.ac.uk/news/quantum-network-entangles-several-atoms-different-elements) — University of Oxford (Physics) ⭐⭐⭐  
   옥스퍼드대가 두 원격 노드의 스트론튬·칼슘 이온을 이용해 최대 4개 원자에 걸친 혼합종 얽힘을 만들고, 자기장 잡음에 둔감한 칼슘 큐비트로 옮겨 얽힘을 10초 이상 보존했다(PRL 게재).
+- **2026-10-15** [ORCA Computing launches PT-3, the first quantum computer built for commercial quantum advantage](https://orcacomputing.com/orca-computing-launches-pt-3-the-first-quantum-computer-built-for-commercial-quantum-advantage/) — ORCA Computing ⭐⭐⭐  
+  영국 ORCA Computing이 상온 동작 광자 양자컴퓨터 PT-3를 출시하고 첫 시스템을 런던 Digital Realty 혁신랩에서 NVIDIA GPU와 함께 가동했다.
 - **2026-10** [IonQ Achieves Record 1 kHz Quantum Interconnect Speed](https://www.ionq.com/news/ionq-demonstrates-world-first-quantum-memory-enhanced-interconnect-for-distributed-quantum-applications) — IonQ ⭐⭐⭐  
   IonQ가 Lightsynq 인수로 확보한 다이아몬드 SiV 양자메모리와 바륨 이온을 광자로 연결해 약 1.03kHz 속도로 벨 쌍(충실도 약 87.9%)을 생성했다.
+- **2026-10** [Measuring higher-order bulk topology in a programmable quantum simulator (arXiv:2610.16046)](https://arxiv.org/abs/2610.16046) — arXiv / D-Wave ⭐⭐⭐  
+  D-Wave 연구진이 Advantage2 초전도 어닐링 프로세서를 아날로그-디지털 방식으로 제어해 최대 728큐비트로 1·2·3차원 고차 위상절연체를 구현했다.
 - **2026-09-24** [Infleqtion Achieves 30 Entangled Logical Qubits on Its Sqale Quantum Computer](https://ir.infleqtion.com/news-events/press-releases/detail/212/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer) — Infleqtion IR ⭐⭐⭐⭐  
   Infleqtion이 중성원자 Sqale 시스템에서 물리 원자 80개(8개씩 10블록)로 논리 큐비트 30개를 얽힘 상태로 구현했다고 발표했다.
 - **2026-09-14** [Breakeven demonstration of quantum low-density parity-check codes (arXiv:2606.06455)](https://arxiv.org/abs/2606.06455) — arXiv / IonQ ⭐⭐⭐⭐  
@@ -91,10 +96,13 @@ _최종 업데이트: 2026-10-18 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
 - **빅테크 장기 베팅 확대**: IBM 100억 달러+ 투자 약속과 2028~29년 실적 기여 전망([IBM](https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers)); 유럽에서도 OQC £2.6억·Quobly €1.15억 등 대형 라운드.
 - **한국: 정책 본격화**: 2035 양자 종합계획·IonQ 공동연구센터 MOU([연합뉴스](https://en.yna.co.kr/view/AEN20260129007100320)), 서울·전남광주·부울경 양자클러스터 지정(2026-09-01)([연합뉴스](https://www.yna.co.kr/view/AKR20260901080100017)), KISTI 슈퍼컴 6호기+IonQ 하이브리드(2027 상반기).
 - **(10월 2주 업데이트) 자금·정책 모두 가속**: Oratomic 누적 7.75억 달러([발표](https://www.oratomic.com/news/fundraise)), 국내 오큐티 140억원 프리A, 서울 13개국 퀀텀개발그룹(QDG) 회의, 과기정통부 '7대 SEED·K-문샷' 사업화 지원, 영국 7,800만 파운드 배정.
+- **(10월 3주 업데이트) 공공 자금이 '지분·주권' 모델로**: 뉴욕시가 NYU 양자 팹(QFab)에 2,920만 달러를 대고 IP 수익 15%·이사회 자문석 확보([NYC](https://www.nyc.gov/mayors-office/news/2026/10/mayor-mamdani-announces-new-nyu-quantum-fabrication-facility--fi)), EU는 양자인터넷연합에 4,750만 유로([QuTech](https://qutech.nl/2026/10/16/qutech-coordinates-european-effort-to-build-worlds-first-full-stack-quantum-internet-prototype/)), 스페인은 인드라·SETT가 Qilimanjaro에 1,960만 유로 — 미 상무부 지분 참여에 이어 '공공이 지분을 갖는' 투자 방식이 확산.
 
 ### 항목 (최신순)
 - **2026-10-16** [IonQ Announces Pricing of $2.0 Billion Equity Offering](https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Pricing-of-2-0-Billion-Equity-Offering/default.aspx) — IonQ IR ⭐⭐⭐⭐  
   IonQ가 보통주·사전납입 워런트와 시리즈C 워런트를 묶어 주당 40달러에 20억 달러 규모 증자를 단행했고 10월 16일 마감했다(순조달 약 19.9억 달러).
+- **2026-10-16** [QuTech coordinates European effort to build world's first full-stack quantum internet prototype](https://qutech.nl/2026/10/16/qutech-coordinates-european-effort-to-build-worlds-first-full-stack-quantum-internet-prototype/) — QuTech ⭐⭐⭐  
+  유럽 50여 개 기관이 참여하는 양자인터넷연합(QIA)이 EU 집행위원회로부터 4,750만 유로를 받아 2단계(3.5년)에 들어갔고 QuTech(TU Delft)가 총괄한다.
 - **2026-10-15** [Quantum Computing Stocks Rebound After Dilution Scare](https://247wallst.com/investing/2026/10/15/quantum-computing-stocks-rebound-after-dilution-scare-ionq-and-rigetti-climb-3-d-wave-advances-2/) — 24/7 Wall St. ⭐⭐  
   IonQ의 대규모 증자로 인한 희석 우려 매도 이후 10월 15일 IonQ·Rigetti가 약 3%, D-Wave가 약 2% 반등했다.
 - **2026-10-15** [오큐티, 140억 투자 유치…오류내성 양자컴퓨터 개발 속도](https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=06638726645613248) — 이데일리 ⭐⭐⭐  
@@ -103,6 +111,10 @@ _최종 업데이트: 2026-10-18 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
   IonQ와 케임브리지대가 캐번디시 연구소에 첫 대학 기반 IonQ 양자혁신센터를 열고 9개 공동 연구과제를 시작했다.
 - **2026-10-15** [D-Wave Delivers Italy's First Annealing Quantum Computer](https://www.dwavequantum.com/company/newsroom/press-release/d-wave-delivers-italy-s-first-annealing-quantum-computer/) — D-Wave ⭐⭐  
   D-Wave가 4,400큐비트 이상 Advantage2 어닐링 시스템(VoltaB1)을 이탈리아 코모에 반입했다.
+- **2026-10-14** [Qilimanjaro Quantum Tech announces a nearly €20 million first close of its Series A, led by Indra Group](https://qilimanjaro.tech/qilimanjaro-quantum-tech-announces-a-nearly-e20-million-first-close-of-its-series-a-led-by-indra-group/) — Qilimanjaro ⭐⭐⭐  
+  스페인 풀스택 양자컴퓨터 기업 Qilimanjaro가 시리즈A 1차 클로징으로 1,960만 유로를 조달했다.
+- **2026-10-14** [Mayor Mamdani Announces New NYU Quantum Fabrication Facility (QFab)](https://www.nyc.gov/mayors-office/news/2026/10/mayor-mamdani-announces-new-nyu-quantum-fabrication-facility--fi) — NYC Mayor's Office ⭐⭐⭐  
+  뉴욕시가 NYU 양자 제조시설(QFab, 맨해튼 770 Broadway, 2030년 개소 예정)에 2,920만 달러를 지원하고, NYU가 건설·10년 운영에 2억 5,500만 달러를 투입한다(총 2억 8,400만 달러).
 - **2026-10-13** [13개국 퀀텀개발그룹, 안전하고 신뢰할 수 있는 퀀텀 생태계 구축을 위한 협력 의지 다져](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784982) — 외교부 (대한민국 정책브리핑) ⭐⭐⭐  
   한국·미국·영국·일본 등 13개국이 10월 13~14일 서울에서 제6차 퀀텀개발그룹(QDG) 회의를 열고 연구보안, 양자기업 투자환경, 국제표준화 협력을 논의했다.
 - **2026-10-13** [Quantum firms backed to keep railways running and cut waiting lists as UK harnesses potential of future tech](https://www.gov.uk/government/news/quantum-firms-backed-to-keep-railways-running-and-cut-waiting-lists-as-uk-harnesses-potential-of-future-tech) — GOV.UK (DSIT/UKRI) ⭐⭐⭐  
@@ -180,6 +192,7 @@ _최종 업데이트: 2026-10-18 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
 - **한국 PQC 일정 구체화**: 국정원 59개 과제 종합계획 — 2027년 공공평가 반영, 2029년 1월 KEM 일부 의무화([ZDNet Korea](https://zdnet.co.kr/view/?no=20260920204430)); 과기정통부 5대 분야 시범전환([연합뉴스](https://www.yna.co.kr/view/AKR20260506053400017)); KpqC 4종 KS 표준화 진행.
 - **암호자산이 새 전선**: 유로폴 경고([Europol](https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats)), 비트코인 BIP-360 초안, 이더리움 2029 목표.
 - **(10월 2주 업데이트) 정부 시한이 '고위험 2030~2031 / 전체 2035'로 정렬**: 독일 BSI 지침(2030 말/2035), 싱가포르 CSA(CII 2031/2035), 영국 NCSC TLS 지침(하이브리드·순수 PQC, TLS 1.3 즉시 이전), 미 OMB M-26-15 전환계획 제출 기한(10/22). 마이크로소프트는 ML-DSA-87 인증서 파일럿으로 '인증 전환' 준비를 촉구.
+- **(10월 3주 업데이트) AI 암호분석이 표준화 변수로**: Claude가 NIST 추가 서명 후보 HAWK의 키 강도를 절반으로 낮춰 HAWK가 3라운드에서 철회됨([Anthropic](https://www.anthropic.com/research/discovering-cryptographic-weaknesses)) — 블록체인 진영의 '격자 vs 해시 서명' 논쟁으로 번짐. 코인베이스는 비트코인 PQC 전환 즉시 착수와 P2MR(BIP-360) 등 유연한 설계를 촉구([Coinbase](https://www.coinbase.com/blog/working-together-on-btc-post-quantum-readiness)), 라이트닝·IoT 보안칩(SEALSQ)으로 하이브리드 ML-KEM/ML-DSA 적용 범위가 넓어지는 중.
 
 ### 항목 (최신순)
 - **2026-10-15** [Post-quantum updates to our TLS guidance](https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance) — NCSC (UK) ⭐⭐⭐⭐ · [이슈 #24](https://github.com/litkhai/notes-on-quantum/issues/24)  
@@ -188,8 +201,14 @@ _최종 업데이트: 2026-10-18 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
   싱가포르 사이버보안청(CSA)이 핵심정보기반시설(CII)은 2031년, 기타 조직은 2035년까지 양자내성 전환을 마치도록 하는 권고와 단계별 실무 지침을 발표했다.
 - **2026-10-14** ['Q-데이 임박'에 양자내성 전환 속도전…MS "현실적 판단 필요한 때"](https://www.ddaily.co.kr/page/view/2026101413282649505) — 디지털데일리 ⭐⭐  
   싱가포르 국제사이버주간(SICW 2026) 패널에서 MS·IBM·인피니언·CISA·이스라엘 INCD 관계자들이 PQC 전환 현실성을 논의했다.
+- **2026-10-13** [Working Together on Bitcoin's Post-Quantum Readiness](https://www.coinbase.com/blog/working-together-on-btc-post-quantum-readiness) — Coinbase ⭐⭐⭐  
+  전체 비트코인의 약 5%를 보관하는 코인베이스가 비트코인 PQC 전환 준비를 지금 시작해야 한다며 선호 설계를 제시했다.
+- **2026-10-13** [Researchers Build First Working Post-Quantum Defense for Bitcoin's Lightning Network (PQLN)](https://bitcoinmagazine.com/news/quantum-defense-for-bitcoins-lightning) — Bitcoin Magazine ⭐⭐  
+  East Texas A&M 등 연구진이 비트코인 라이트닝 네트워크의 오프체인 통신·인보이스·결제 경로에 ML-DSA 서명과 ML-KEM 키 교환을 기존 암호와 겹쳐 적용한 하이브리드 PQC 설계(PQLN)를 rust-lightning으로 구현했다.
 - **2026-10-12** [Umstellung auf Post-Quanten-Kryptografie: Leitlinie zur nationalen Umsetzung der EU-Roadmap veröffentlicht](https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261012_Leitlinie-PQC.html) — BSI (독일 연방정보보안청) ⭐⭐⭐⭐ · [이슈 #24](https://github.com/litkhai/notes-on-quantum/issues/24)  
   독일 내무부·디지털부·BSI가 EU PQC 로드맵의 국내 이행 지침을 공동 발표했다.
+- **2026-10-12** [SEALSQ Unveils VaultIC409, a Quantum-Ready Secure Element](https://www.sealsq.com/investors/news-releases/sealsq-unveilsvaultic409-a-quantum-ready-secure-element-designed-for-the-next-generation-of-connected-devices) — SEALSQ ⭐⭐  
+  SEALSQ가 QS7001 플랫폼 기반 보안칩 VaultIC409를 공개했다.
 - **2026-10-08** [Post-quantum authentication: Why organizations should start testing certificate ecosystems now](https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/) — Microsoft Security Blog ⭐⭐⭐  
   마이크로소프트가 8월 27일 시작한 PQC TLS 파일럿(ML-DSA-87 루트, DigiCert·Sectigo 등 7개 CA 참여)을 소개하며 인증서 의존성 인벤토리와 비운영 환경 테스트를 지금 시작하라고 권고했다.
 - **2026-10-07** [Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats](https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats) — Europol ⭐⭐⭐  
@@ -204,6 +223,8 @@ _최종 업데이트: 2026-10-18 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
   이더리움 재단이 양자내성을 최우선 과제로 올리고 2029년 12월까지 실행·합의·데이터 계층 전반의 완전한 양자내성을 목표로 제시했다.
 - **2026-08** [RFC 10024: Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3](https://www.rfc-editor.org/rfc/rfc10024.html) — RFC Editor (IETF) ⭐⭐⭐⭐  
   IETF가 TLS 1.3용 하이브리드 키합의 표준 RFC 10024를 발행했다.
+- **2026-07-28** [Discovering cryptographic weaknesses with Claude (HAWK key-recovery attack; HAWK withdrawn from NIST round 3)](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) — Anthropic ⭐⭐⭐⭐ · [이슈 #35](https://github.com/litkhai/notes-on-quantum/issues/35)  
+  Anthropic이 Claude Mythos Preview를 활용해 NIST 추가 서명 3라운드 후보 HAWK의 키 복구 공격을 개선, 유효 키 강도를 사실상 절반으로 낮췄다고 발표했다.
 - **2026-07** [New Windows Features to Secure Today's Data in a Post-Quantum World](https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-windows-features-to-secure-today%E2%80%99s-data-in-a-post-quantum-world/4523370) — Microsoft Tech Community ⭐⭐⭐  
   윈도우가 ML-KEM 하이브리드 TLS 키교환과 복합(composite) 알고리즘을 지원하고, AD CS의 ML-DSA 인증서 발급이 2026년 5월 정식 제공됐다.
 - **2026-06** [OMB M-26-15: Execution of the Migration to Post-Quantum Cryptography](https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf) — White House OMB ⭐⭐⭐⭐ · [이슈 #24](https://github.com/litkhai/notes-on-quantum/issues/24)  
@@ -253,16 +274,21 @@ _최종 업데이트: 2026-10-18 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
 - **클라우드 접근 확대**: Braket에 Rigetti 108큐비트, QuEra 내결함성 Libra 2028 Braket 제공 예정([AWS](https://aws.amazon.com/blogs/quantum-computing/aws-deepens-strategic-collaboration-with-quera-to-bring-fault-tolerant-quantum-computing-to-amazon-braket/)), 구글 Willow 조기 접근.
 - **AI가 양자 알고리즘 설계에 진입**: Anthropic Claude가 ECC 점덧셈 회로 게이트 약 17배 절감([Anthropic](https://www.anthropic.com/research/designing-efficient-quantum-circuits)); DQI 계열의 증명 가능한 우위 이론 결과 잇따름.
 - **(10월 2주 업데이트) QEC 소프트웨어 스택이 빠르게 두꺼워짐**: 구글 모듈형 쌍곡 코드(오버헤드 10배 이상↓, [arXiv](https://arxiv.org/abs/2610.03682)), IBM 에이전트 기반 디코더 하드웨어 설계(52배), PennyLane Backline 디코더 플러그인, CUDA-Q Logical, Qiskit 2.6(Rust 패스매니저·C API). AI 에이전트(Claude 회로 설계, Haiqu AgenticOS, FirstQFM)가 양자 SW 개발 도구로 자리잡는 중.
+- **(10월 3주 업데이트) 클라우드 규제 대응·고전 시뮬레이션 반격**: Amazon Braket이 FedRAMP Class C 범위에 포함돼 미 정부 활용 문턱이 낮아졌고([AWS](https://aws.amazon.com/about-aws/whats-new/2026/10/braket-fedramp-class-c/)), 에든버러대는 슈퍼컴 대비 약 5% 자원으로 가우시안 보손 샘플링을 에뮬레이션([Edinburgh](https://www.ed.ac.uk/news/software-advance-could-aid-quantum-progress)).
 
 ### 항목 (최신순)
 - **2026-10-16** [Designing more efficient quantum circuits with Claude](https://www.anthropic.com/research/designing-efficient-quantum-circuits) — Anthropic ⭐⭐⭐⭐  
   Anthropic이 Claude로 화학·최적화·정수론 등 8개 과제의 양자회로를 설계해 기존보다 효율적인 회로를 얻었다고 발표했다.
 - **2026-10-16** [Qiskit 2.6.0 release](https://github.com/Qiskit/qiskit/releases) — Qiskit (GitHub) ⭐⭐⭐  
   Qiskit SDK 2.6.0이 공개됐다.
+- **2026-10-16** [Amazon Braket now in scope for FedRAMP Class C](https://aws.amazon.com/about-aws/whats-new/2026/10/braket-fedramp-class-c/) — AWS ⭐⭐  
+  Amazon Braket이 미국 리전에서 FedRAMP Class C 범위에 포함돼 미 정부 기관과 협력사가 인증된 경계 안에서 양자컴퓨팅을 활용할 수 있게 됐다.
 - **2026-10-15** [FirstQFM Model Cuts Single-Qubit Gate Times 33% on QuantWare Processor](https://thequantuminsider.com/2026/10/15/firstqfm-model-cuts-single-qubit-gate-times-33-percent-quantware/) — The Quantum Insider ⭐⭐  
   FirstQFM의 양자 파운데이션 모델이 기존 보정 데이터만으로 펄스 수준 게이트를 생성해 QuantWare Contralto-D21(21큐비트)에서 단일 큐비트 게이트 시간을 충실도 손실 없이 33% 단축했다.
 - **2026-10-14** [EigenOrbit Releases Open-Source eigenkit Quantum Computing Library](https://thequantuminsider.com/2026/10/14/eigenorbit-releases-open-source-eigenkit-quantum-computing-library/) — The Quantum Insider ⭐⭐  
   EigenOrbit이 알고리즘을 한 번 작성하면 Qiskit·PennyLane·CUDA-Q·Braket 시뮬레이터와 IBM·IQM 하드웨어에서 그대로 실행하는 오픈소스(Apache 2.0) 파이썬 라이브러리 eigenkit 1.0을 공개했다.
+- **2026-10-14** [Software advance could aid quantum progress (fast Gaussian boson sampling emulator)](https://www.ed.ac.uk/news/software-advance-could-aid-quantum-progress) — University of Edinburgh ⭐⭐⭐  
+  에든버러대·EPCC 연구진이 기존 슈퍼컴퓨터 대비 약 5%의 계산 자원으로 가우시안 보손 샘플링을 일반 컴퓨터에서 시뮬레이션하는 알고리즘을 Science Advances에 발표했다.
 - **2026-10-13** [Scaling AI-driven chip design with open agent factories](https://research.ibm.com/blog/open-agent-factories-and-distributed-inference-for-chip-design) — IBM Research ⭐⭐⭐  
   IBM 리서치가 오픈 프런티어 모델과 llm-d 분산 추론을 쓰는 AI 에이전트 팩토리로 bivariate bicycle 코드용 Relay-BP 오류정정 디코더 하드웨어를 최적화해, 약 26달러의 추론 비용으로 HLS 추정 기준 52배 속도 향상을 얻었다(독점 모델 구성은 299달러·204배).
 - **2026-10-13** [Bring your own decoder: hierarchical QEC decoding with Backline, NVIDIA Ising, and PyMatching](https://pennylane.ai/blog/2026/10/bring-your-own-decoder-backline) — PennyLane Blog (Xanadu) ⭐⭐⭐  

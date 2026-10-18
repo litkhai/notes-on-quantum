@@ -18,5 +18,6 @@
  "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance": "https://github.com/litkhai/notes-on-quantum/issues/24",
  "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf": "https://github.com/litkhai/notes-on-quantum/issues/24",
  "https://www.oratomic.com/news/fundraise": "https://github.com/litkhai/notes-on-quantum/issues/25",
- "https://arxiv.org/abs/2610.03682": "https://github.com/litkhai/notes-on-quantum/issues/26"
+ "https://arxiv.org/abs/2610.03682": "https://github.com/litkhai/notes-on-quantum/issues/26",
+ "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": "https://github.com/litkhai/notes-on-quantum/issues/35"
 }
