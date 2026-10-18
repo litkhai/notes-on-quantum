@@ -1,24 +1,48 @@
 import assert from "node:assert/strict";
-import test from "node:test";
+import { spawn } from "node:child_process";
+import { createServer } from "node:net";
+import { after, before, test } from "node:test";
+import { fileURLToPath } from "node:url";
 
-async function worker() {
-  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
-  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
-  return (await import(workerUrl.href)).default;
+// Runs against the production build (`npm run build` first) served by `next start`.
+const appDir = fileURLToPath(new URL("..", import.meta.url));
+let server;
+let base;
+
+function freePort() {
+  return new Promise((resolve, reject) => {
+    const probe = createServer();
+    probe.once("error", reject);
+    probe.listen(0, "127.0.0.1", () => {
+      const { port } = probe.address();
+      probe.close(() => resolve(port));
+    });
+  });
 }
 
-const env = {
-  ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) },
-};
-const context = { waitUntil() {}, passThroughOnException() {} };
+before(async () => {
+  const port = await freePort();
+  base = `http://127.0.0.1:${port}`;
+  // Sample mode: no ClickHouse credentials reach the test server.
+  const env = { ...process.env, CLICKHOUSE_DEMO_MODE: "sample", CLICKHOUSE_HOST: "", CLICKHOUSE_PASSWORD: "" };
+  server = spawn("npx", ["next", "start", "-p", String(port), "-H", "127.0.0.1"], { cwd: appDir, env, stdio: "ignore" });
+  for (let attempt = 0; attempt < 60; attempt += 1) {
+    try {
+      if ((await fetch(`${base}/api/health`)).ok) return;
+    } catch {
+      // server not listening yet
+    }
+    await new Promise((resolve) => setTimeout(resolve, 250));
+  }
+  throw new Error("next start did not become healthy");
+});
+
+after(() => {
+  server?.kill();
+});
 
 test("renders the Korean quantum observability lab", async () => {
-  const app = await worker();
-  const response = await app.fetch(
-    new Request("http://localhost/", { headers: { accept: "text/html" } }),
-    env,
-    context,
-  );
+  const response = await fetch(`${base}/`, { headers: { accept: "text/html" } });
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /<html[^>]+lang="ko"/i);
@@ -29,17 +53,12 @@ test("renders the Korean quantum observability lab", async () => {
 });
 
 test("serves every query preset in sample mode without credentials", async () => {
-  const app = await worker();
   const presets = [
     "summary", "distribution", "drift", "errors", "experiments",
     "degradation", "entropy",
   ];
   for (const preset of presets) {
-    const response = await app.fetch(
-      new Request(`http://localhost/api/query?preset=${preset}&experiment=latest`),
-      env,
-      context,
-    );
+    const response = await fetch(`${base}/api/query?preset=${preset}&experiment=latest`);
     assert.equal(response.status, 200, preset);
     const payload = await response.json();
     assert.equal(payload.source, "sample", preset);
@@ -48,13 +67,13 @@ test("serves every query preset in sample mode without credentials", async () =>
   }
 });
 
+test("rejects an invalid experiment id", async () => {
+  const response = await fetch(`${base}/api/query?preset=distribution&experiment=not-a-uuid`);
+  assert.equal(response.status, 400);
+});
+
 test("exposes a Docker health endpoint", async () => {
-  const app = await worker();
-  const response = await app.fetch(
-    new Request("http://localhost/api/health"),
-    env,
-    context,
-  );
+  const response = await fetch(`${base}/api/health`);
   assert.equal(response.status, 200);
   assert.deepEqual(await response.json(), {
     status: "ok",
