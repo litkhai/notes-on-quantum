@@ -138,7 +138,7 @@ extra_javascript:
 extra:
   # Single as-of date. Templates read it directly. hooks/reference_date.py
   # fills {{ reference_date }} and {{ reference_date_ko }} in Markdown.
-  reference_date: "2026-10-18"
+  reference_date: "2026-10-26"
   status:
     current: 현재 강의 자료
     update: 갱신 필요
