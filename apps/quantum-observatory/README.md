@@ -49,7 +49,9 @@ docker compose down
 
 ## Vercel 배포
 
-같은 저장소에서 문서 사이트와 별도의 Vercel 프로젝트로 배포한다. 저장소를 나누지 않는다.
+2026-11-07에 내렸다. Vercel 프로젝트 `quantum-clickhouse-lab`과 도메인 `quantum-lab.litkhai.dev`(Cloudflare CNAME 포함)를 지웠다. 앱 코드는 이 폴더에 그대로 있고, 지금은 아래 "로컬 개발"대로만 돌린다.
+
+다시 올릴 때는 같은 저장소에서 문서 사이트와 별도의 Vercel 프로젝트로 만든다. 저장소를 나누지 않는다. 내리기 전 설정은 다음과 같았다.
 
 | 설정 | 값 |
 |---|---|
@@ -57,11 +59,10 @@ docker compose down
 | Root Directory | `apps/quantum-observatory` |
 | Framework | Next.js (이 폴더의 `vercel.json`) |
 | Region | `icn1` |
-| 도메인 | `quantum-clickhouse-lab.vercel.app`, `quantum-lab.litkhai.dev` |
 
 - 이 폴더의 `vercel.json`은 앱이 바뀌지 않은 커밋에서 빌드를 건너뛴다. 저장소 루트의 `vercel.json`(문서 사이트)은 반대로 `apps/`만 바뀐 커밋에서 빌드를 건너뛴다.
 - 환경변수를 넣지 않으면 sample 모드로 동작한다. 실데이터를 보이려면 Vercel 프로젝트의 Environment Variables에 아래 표의 `CLICKHOUSE_*` 값을 넣고 `CLICKHOUSE_DEMO_MODE=live`로 바꾼다.
-- 커스텀 도메인은 Vercel의 Domains 화면에서 추가한 뒤, 화면에 표시되는 CNAME 값을 Cloudflare에 `quantum-lab` 레코드로 넣는다. 프록시는 끈다(DNS only).
+- 커스텀 도메인을 쓰려면 Vercel의 Domains 화면에서 추가한 뒤, 화면에 표시되는 CNAME 값을 Cloudflare에 넣는다. 프록시는 끈다(DNS only).
 
 ## 로컬 개발
 
