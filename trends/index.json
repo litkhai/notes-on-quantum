@@ -2,6 +2,102 @@
  {
   "id": "hw-001",
   "category": "hardware",
+  "title": "IBM Unveils Its Most Advanced Quantum Computer in Chicago",
+  "source": "IBM Newsroom",
+  "date": "2026-11-06",
+  "date_precision": "day",
+  "url": "https://newsroom.ibm.com/2026-11-06-ibm-unveils-its-most-advanced-quantum-computer-in-chicago,-marking-a-milestone-for-illinoiss-quantum-future",
+  "summary_ko": "IBM이 시카고대 Hyde Park Labs에 일리노이주 최초의 IBM Quantum System Two(Nighthawk 칩 기반)를 공개해 가동에 들어갔다. 향후 건설 중인 일리노이 양자·마이크로전자 단지(IQMP)로 옮겨 국가양자알고리즘센터(NQAC)의 핵심 시스템이 된다.",
+  "summary_en": "IBM unveiled its first Illinois quantum computer, a Nighthawk-powered Quantum System Two at UChicago's Hyde Park Labs, to anchor the National Quantum Algorithm Center.",
+  "tags": [
+   "IBM",
+   "Nighthawk",
+   "Illinois",
+   "System-Two"
+  ],
+  "entities": [
+   "IBM",
+   "University of Chicago",
+   "IQMP"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "hw-002",
+  "category": "hardware",
+  "title": "ORNL, IBM and AMD launch new co-design platform for quantum error correction",
+  "source": "Oak Ridge National Laboratory",
+  "date": "2026-11-05",
+  "date_precision": "day",
+  "url": "https://www.ornl.gov/news/ornl-ibm-and-amd-launch-new-co-design-platform-for-quantum-error-correction/",
+  "summary_ko": "IBM·ORNL(양자과학센터)·AMD가 IBM 120큐비트 Nighthawk를 AMD GPU 기반 Umbra HPC와 같은 위치에 두는 오류정정 공동설계 플랫폼을 공개했다. DOE Quantum Genesis의 Q 경쟁(2028년 말 100 논리큐비트·10만 연산) 목표 대비 IBM의 현재 기록은 70 논리큐비트·438 연산으로, 약 230배 격차를 제시했다.",
+  "summary_en": "IBM, ORNL's QSC and AMD launched a QEC co-design platform pairing Nighthawk with AMD-GPU HPC; ORNL notes a ~230x gap from IBM's 70 logical qubits/438 ops to DOE's 100-logical/100k-ops 2028 target.",
+  "tags": [
+   "error-correction",
+   "HPC",
+   "DOE",
+   "Quantum-Genesis",
+   "decoder"
+  ],
+  "entities": [
+   "IBM",
+   "ORNL",
+   "AMD"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "hw-003",
+  "category": "hardware",
+  "title": "Universal Quantum launches the iQPU, a chip designed to take quantum computers to scale",
+  "source": "Universal Quantum",
+  "date": "2026-11-03",
+  "date_precision": "day",
+  "url": "https://universalquantum.com/knowledge-hub/universal-quantum-launches-the-iqpu-a-chip-designed-to-take-quantum-computers-to-scale",
+  "summary_ko": "유니버설 퀀텀이 400mm² 이상의 활성 영역을 가진 트랩드이온 집적 프로세서 iQPU를 공개했다. 상용 200mm 반도체 파운드리 라인에서 제조하며 UQConnect로 칩 간 모듈 연결을 지원하고, 독일 항공우주센터(DLR) 납품 시스템(계약 6,700만 유로)에 탑재된다.",
+  "summary_en": "Universal Quantum launched the iQPU, a foundry-made (200mm) trapped-ion QCCD chip with >400 mm² active area and UQConnect modular links, to be used in DLR systems (€67M contracts).",
+  "tags": [
+   "trapped-ion",
+   "QCCD",
+   "foundry",
+   "modular",
+   "Germany"
+  ],
+  "entities": [
+   "Universal Quantum",
+   "DLR"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "hw-004",
+  "category": "hardware",
+  "title": "Breakthrough at COMIQC: NVision Quantum succeeds in controlling molecular qubits",
+  "source": "DLR Quantum Computing Initiative",
+  "date": "2026-11-03",
+  "date_precision": "day",
+  "url": "https://qci.dlr.de/en/breakthrough-at-comiqc-nvision-quantum-succeeds-in-controlling-molecular-qubits/",
+  "summary_ko": "독일 NVision Quantum이 단일 유기 분자를 큐비트로 지정·결맞음 제어하고 빛과의 광학 인터페이스를 시연한 결과를 Nature에 발표했다(DLR QCI의 COMIQC 프로젝트). 유기 분자 결정 기반이라는 드문 접근으로 확장성 있는 양자컴퓨터 가능성을 연다.",
+  "summary_en": "NVision Quantum reported in Nature coherent control of a single organic molecule as a qubit with an optical interface (DLR QCI COMIQC project).",
+  "tags": [
+   "molecular-qubit",
+   "Nature",
+   "spin-photon",
+   "Germany"
+  ],
+  "entities": [
+   "NVision Quantum",
+   "DLR"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "hw-005",
+  "category": "hardware",
   "title": "IQM demonstrates entanglement across complete 54-qubit processor",
   "source": "IQM",
   "date": "2026-10-29",
@@ -22,7 +118,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "hw-002",
+  "id": "hw-006",
   "category": "hardware",
   "title": "A single-molecule spin–photon interface (Nature)",
   "source": "Nature / NVision",
@@ -43,7 +139,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "hw-003",
+  "id": "hw-007",
   "category": "hardware",
   "title": "PsiQuantum Unveils Optical Circuit Switch Technology Built on Advanced, Low-Loss Silicon Photonics Platform",
   "source": "PsiQuantum (Business Wire)",
@@ -65,7 +161,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "hw-004",
+  "id": "hw-008",
   "category": "hardware",
   "title": "Pasqal's neutral-atom processor uncovers quantum magnet behavior that theory did not predict",
   "source": "Pasqal",
@@ -88,7 +184,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "hw-005",
+  "id": "hw-009",
   "category": "hardware",
   "title": "Fast but accurate – a new speed record for quantum gates",
   "source": "Forschungszentrum Jülich",
@@ -112,7 +208,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "hw-006",
+  "id": "hw-010",
   "category": "hardware",
   "title": "Beating the break-even point with autonomous quantum error correction (Nature Physics)",
   "source": "Nature Physics / USTC",
@@ -136,7 +232,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "hw-007",
+  "id": "hw-011",
   "category": "hardware",
   "title": "Meter-scale quantum interconnects between large quantum processors (arXiv:2610.29986)",
   "source": "arXiv / IBM Research",
@@ -158,7 +254,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "hw-008",
+  "id": "hw-012",
   "category": "hardware",
   "title": "Alice & Bob shares first results from France's PROQCIMA quantum programme",
   "source": "Alice & Bob",
@@ -183,7 +279,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "hw-009",
+  "id": "hw-013",
   "category": "hardware",
   "title": "Quantinuum breaks error correction world record by 10x, validating path to fault tolerance",
   "source": "Quantinuum",
@@ -207,7 +303,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/37"
  },
  {
-  "id": "hw-010",
+  "id": "hw-014",
   "category": "hardware",
   "title": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
   "source": "Google (blog.google)",
@@ -230,7 +326,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/14"
  },
  {
-  "id": "hw-011",
+  "id": "hw-015",
   "category": "hardware",
   "title": "A path toward larger quantum processors (simultaneous high-fidelity single-qubit gates in a spin qubit array)",
   "source": "RIKEN / Nature Physics",
@@ -252,7 +348,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-012",
+  "id": "hw-016",
   "category": "hardware",
   "title": "Quantum network entangles several atoms of different elements",
   "source": "University of Oxford (Physics)",
@@ -274,7 +370,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-013",
+  "id": "hw-017",
   "category": "hardware",
   "title": "ORCA Computing launches PT-3, the first quantum computer built for commercial quantum advantage",
   "source": "ORCA Computing",
@@ -298,7 +394,7 @@
   "added": "2026-10-19"
  },
  {
-  "id": "hw-014",
+  "id": "hw-018",
   "category": "hardware",
   "title": "IonQ Achieves Record 1 kHz Quantum Interconnect Speed",
   "source": "IonQ",
@@ -321,7 +417,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-015",
+  "id": "hw-019",
   "category": "hardware",
   "title": "Measuring higher-order bulk topology in a programmable quantum simulator (arXiv:2610.16046)",
   "source": "arXiv / D-Wave",
@@ -343,7 +439,7 @@
   "added": "2026-10-19"
  },
  {
-  "id": "hw-016",
+  "id": "hw-020",
   "category": "hardware",
   "title": "Infleqtion Achieves 30 Entangled Logical Qubits on Its Sqale Quantum Computer",
   "source": "Infleqtion IR",
@@ -363,7 +459,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-017",
+  "id": "hw-021",
   "category": "hardware",
   "title": "Breakeven demonstration of quantum low-density parity-check codes (arXiv:2606.06455)",
   "source": "arXiv / IonQ",
@@ -385,7 +481,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-018",
+  "id": "hw-022",
   "category": "hardware",
   "title": "IonQ Launches Superion Product Line (Superion 256)",
   "source": "IonQ",
@@ -406,7 +502,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-019",
+  "id": "hw-023",
   "category": "hardware",
   "title": "Experimental validation of a compact fault-tolerant architecture for trapped ions (C4-Helix, arXiv:2609.03194)",
   "source": "arXiv / Quantinuum",
@@ -428,7 +524,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-020",
+  "id": "hw-024",
   "category": "hardware",
   "title": "IBM Quantum Nighthawk r2—more circuits, faster",
   "source": "IBM Quantum Blog",
@@ -449,7 +545,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-021",
+  "id": "hw-025",
   "category": "hardware",
   "title": "Xanadu Charts Path to Over 1,000 Logical Qubits by 2031",
   "source": "Xanadu IR",
@@ -469,7 +565,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-022",
+  "id": "hw-026",
   "category": "hardware",
   "title": "IBM and The University of Chicago Demonstrate Quantum Advantage on Logical Circuits",
   "source": "IBM Newsroom",
@@ -492,7 +588,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/15"
  },
  {
-  "id": "hw-023",
+  "id": "hw-027",
   "category": "hardware",
   "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
   "source": "MIT Technology Review",
@@ -512,7 +608,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-024",
+  "id": "hw-028",
   "category": "hardware",
   "title": "Pasqal Inaugurates Italy's First Neutral-Atom Quantum Computer (SOL)",
   "source": "Pasqal",
@@ -535,7 +631,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-025",
+  "id": "hw-029",
   "category": "hardware",
   "title": "Alice & Bob Unveils First Quantum System Available for Research Partners (Helium)",
   "source": "The Quantum Insider",
@@ -556,7 +652,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-026",
+  "id": "hw-030",
   "category": "hardware",
   "title": "Improved quantum processor logical error rates via correction and detection",
   "source": "Nature",
@@ -578,7 +674,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-027",
+  "id": "hw-031",
   "category": "hardware",
   "title": "Microsoft reveals new quantum chip made with AI (Majorana 2)",
   "source": "Reuters",
@@ -598,7 +694,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-028",
+  "id": "hw-032",
   "category": "hardware",
   "title": "Defect-Free 1024-Atom Registers: Scaling to 1000 Qubits",
   "source": "Pasqal",
@@ -618,7 +714,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-029",
+  "id": "hw-033",
   "category": "hardware",
   "title": "Rigetti Announces General Availability of 108-Qubit System (Cepheus-1-108Q)",
   "source": "Rigetti IR",
@@ -639,7 +735,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-030",
+  "id": "hw-034",
   "category": "hardware",
   "title": "Building superconducting and neutral atom quantum computers",
   "source": "Google (blog.google)",
@@ -660,7 +756,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-031",
+  "id": "hw-035",
   "category": "hardware",
   "title": "IBM Quantum Roadmap 2026 (updated March 2026)",
   "source": "IBM",
@@ -680,7 +776,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-032",
+  "id": "hw-036",
   "category": "hardware",
   "title": "Computing with many encoded logical qubits beyond break-even (arXiv:2602.22211)",
   "source": "arXiv / Quantinuum",
@@ -701,7 +797,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-033",
+  "id": "hw-037",
   "category": "hardware",
   "title": "Neutral Atom Quantum Computing: 2026's Big Leap",
   "source": "IEEE Spectrum",
@@ -725,7 +821,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-034",
+  "id": "hw-038",
   "category": "hardware",
   "title": "IBM Delivers New Quantum Processors (Nighthawk, Loon), Software, and Algorithm Breakthroughs",
   "source": "IBM Newsroom",
@@ -746,7 +842,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-035",
+  "id": "hw-039",
   "category": "hardware",
   "title": "Quantinuum Announces Commercial Launch of Helios",
   "source": "Quantinuum",
@@ -768,7 +864,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-036",
+  "id": "hw-040",
   "category": "hardware",
   "title": "A verifiable quantum advantage (Quantum Echoes)",
   "source": "Google Research",
@@ -791,7 +887,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/16"
  },
  {
-  "id": "hw-037",
+  "id": "hw-041",
   "category": "hardware",
   "title": "IonQ Achieves Landmark Result, Setting New World Record in Quantum Computing Performance (99.99% 2Q fidelity)",
   "source": "IonQ",
@@ -812,7 +908,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-038",
+  "id": "hw-042",
   "category": "hardware",
   "title": "Nobel Prize in Physics 2025 (macroscopic quantum tunnelling in circuits)",
   "source": "NobelPrize.org",
@@ -833,7 +929,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-039",
+  "id": "hw-043",
   "category": "hardware",
   "title": "Continuous operation of a coherent 3,000-qubit system",
   "source": "Nature (Harvard/MIT)",
@@ -856,7 +952,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "hw-040",
+  "id": "hw-044",
   "category": "hardware",
   "title": "Caltech Team Sets Record with 6,100-Qubit Array",
   "source": "Caltech",
@@ -879,6 +975,100 @@
  {
   "id": "mk-001",
   "category": "market",
+  "title": "IonQ Announces Record 3Q26 Revenues and Raises FY2026 Guidance to $505 - $515 Million as Backlog Grows to $1.2 Billion",
+  "source": "IonQ IR",
+  "date": "2026-11-05",
+  "date_precision": "day",
+  "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Record-3Q26-Revenues-and-Raises-FY2026-Guidance-to-505---515-Million-as-Backlog-Grows-to-1-2-Billion/",
+  "summary_ko": "IonQ가 3분기 매출 1억 7,380만 달러(전년 대비 +336%, 6분기 연속 최대)를 발표하고 2026년 매출 가이던스를 5.05~5.15억 달러로 상향했다. 잔여수행의무(RPO)는 12억 달러, 10/16 유상증자 20억 달러 반영 현금은 37억 달러이며, DARPA QBI Stage C 유일의 트랩드이온 기업(최대 3억 달러 규모)이자 한국 SDT와 3,300만 달러 계약(슈퍼리온 256) 등이 포함됐다.",
+  "summary_en": "IonQ Q3'26 revenue $173.8M (+336% YoY), FY2026 guidance raised to $505-515M, RPO $1.2B, $3.7B pro-forma cash; includes $33M SDT (Korea) Superion 256 deal and DARPA QBI Stage C.",
+  "tags": [
+   "earnings",
+   "guidance",
+   "backlog",
+   "DARPA-QBI",
+   "Korea"
+  ],
+  "entities": [
+   "IonQ",
+   "SDT",
+   "DARPA"
+  ],
+  "importance": 4,
+  "added": "2026-11-09",
+  "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/45"
+ },
+ {
+  "id": "mk-002",
+  "category": "market",
+  "title": "Quantinuum Reports Third Quarter 2026 Results and Raises Full-Year Revenue Outlook",
+  "source": "Quantinuum IR",
+  "date": "2026-11-05",
+  "date_precision": "day",
+  "url": "https://ir.quantinuum.com/news-releases/news-release-details/quantinuum-reports-third-quarter-2026-results-and-raises-full",
+  "summary_ko": "퀀티누엄이 3분기 매출 910만 달러(+233%)를 발표하고 2026년 매출 전망을 3,100만~3,400만 달러로 상향했다. 현금 19.4억 달러, 조정 EBITDA 손실 8,000만 달러이며, Nexus 사용 조직은 215곳으로 늘었고 2027년 매출 100% 이상 성장을 제시했다.",
+  "summary_en": "Quantinuum Q3'26 revenue $9.1M (+233%), FY2026 outlook raised to $31-34M, cash $1.94B, adj. EBITDA loss $80M, 215 Nexus organizations, >100% 2027 growth target.",
+  "tags": [
+   "earnings",
+   "guidance",
+   "Nexus",
+   "Helios"
+  ],
+  "entities": [
+   "Quantinuum"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "mk-003",
+  "category": "market",
+  "title": "양자과학기술 및 양자산업 육성에 관한 법률 시행령 일부개정령안 입법예고 (제2026-1057호)",
+  "source": "법제처 / 과학기술정보통신부",
+  "date": "2026-11-04",
+  "date_precision": "day",
+  "url": "https://www.moleg.go.kr/lawinfo/makingInfo.mo?lawCd=0&lawSeq=89298&lawType=TYPE5&mid=a10104010000",
+  "summary_ko": "과기정통부가 11월 20일 시행되는 개정 양자기술산업법의 위임사항을 담은 시행령 개정안을 입법예고했다(예고 2026-11-04~11-09). 국가안보·국민생활 중대분야 양자사업 영향평가, 규제개선 신청, 양자인공지능·공급망 전담기관 지정, 국방분야 적용 시책 등을 구체화한다.",
+  "summary_en": "MSIT pre-announced the amendment to the Quantum Act enforcement decree (11/4-11/9) detailing impact assessments, regulatory improvement requests, designated agencies for quantum AI/supply chain, ahead of the 11/20 effective date.",
+  "tags": [
+   "Korea",
+   "law",
+   "decree",
+   "policy"
+  ],
+  "entities": [
+   "MSIT",
+   "Korea"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "mk-004",
+  "category": "market",
+  "title": "Quint Computing Secures €9.1 Million in Record First Funding Round for German Quantum Computing",
+  "source": "Quint Computing",
+  "date": "2026-11-03",
+  "date_precision": "day",
+  "url": "https://www.quint-computing.com/news/quint-computing-secures-9-1-million-record-first-funding-round/",
+  "summary_ko": "독일 에를랑겐의 Quint Computing이 Vsquared 주도로 910만 유로 첫 투자 라운드를 마감했다(독일 양자 기업 최대 규모의 첫 라운드). 회로 소자 수준에서 오류를 억제하는 초전도 칩 구조로 오류정정 오버헤드를 줄이겠다는 구상이며 EIC Pathfinder 220만 유로 보조금도 받았다.",
+  "summary_en": "Quint Computing raised €9.1M (Vsquared-led), Germany's largest first quantum round, plus a €2.2M EIC Pathfinder grant, for a superconducting architecture suppressing errors at the circuit level.",
+  "tags": [
+   "funding",
+   "seed",
+   "error-correction",
+   "Germany"
+  ],
+  "entities": [
+   "Quint Computing",
+   "Vsquared Ventures"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "mk-005",
+  "category": "market",
   "title": "LG CNS and D-Wave Announce Strategic Relationship to Advance Quantum Optimization Adoption in South Korea",
   "source": "D-Wave IR",
   "date": "2026-10-28",
@@ -900,7 +1090,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "mk-002",
+  "id": "mk-006",
   "category": "market",
   "title": "SkyWater Technology Launches OnRamp to Support the Next Generation of Quantum Innovators",
   "source": "SkyWater Technology",
@@ -922,7 +1112,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "mk-003",
+  "id": "mk-007",
   "category": "market",
   "title": "IonQ Awarded $7.5 Million Follow-On Funding from AFRL to Advance Full-Stack Quantum Networking",
   "source": "IonQ IR",
@@ -944,7 +1134,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "mk-004",
+  "id": "mk-008",
   "category": "market",
   "title": "Quantum Technology Roadmap for Space",
   "source": "GOV.UK (UK Space Agency / DSIT)",
@@ -967,7 +1157,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "mk-005",
+  "id": "mk-009",
   "category": "market",
   "title": "Intel to Acquire Classiq to Create a Full-Stack Quantum Computing Company",
   "source": "Intel",
@@ -991,7 +1181,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/39"
  },
  {
-  "id": "mk-006",
+  "id": "mk-010",
   "category": "market",
   "title": "Governor Hochul announces new study highlighting New York's position as national leader in quantum",
   "source": "New York State Governor",
@@ -1014,7 +1204,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "mk-007",
+  "id": "mk-011",
   "category": "market",
   "title": "Korean quantum firms explore supply chain opportunities with IonQ and IBM",
   "source": "머니투데이(MoneyToday)",
@@ -1038,7 +1228,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "mk-008",
+  "id": "mk-012",
   "category": "market",
   "title": "배경훈 부총리 \"양자 초기시장 마중물 역할…단계별 산업화 로드맵 마련\"",
   "source": "ZDNet Korea",
@@ -1059,7 +1249,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "mk-009",
+  "id": "mk-013",
   "category": "market",
   "title": "Anglo-Finnish Oxford University quantum spinout QuantrolOx raises €12M",
   "source": "Tech.eu",
@@ -1082,7 +1272,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "mk-010",
+  "id": "mk-014",
   "category": "market",
   "title": "국민성장펀드 지원 대상에 우주항공·양자 추가 (산업은행법 시행령 개정안 입법예고)",
   "source": "연합뉴스",
@@ -1104,7 +1294,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "mk-011",
+  "id": "mk-015",
   "category": "market",
   "title": "과기정통부, 개방형 양자 테스트베드 고도화 사업 착수 — KT·SK브로드밴드 컨소시엄",
   "source": "연합뉴스",
@@ -1129,7 +1319,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "mk-012",
+  "id": "mk-016",
   "category": "market",
   "title": "Xanadu secures up to $10 million in additional DARPA support",
   "source": "Xanadu",
@@ -1151,7 +1341,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "mk-013",
+  "id": "mk-017",
   "category": "market",
   "title": "IonQ Announces Pricing of $2.0 Billion Equity Offering",
   "source": "IonQ IR",
@@ -1173,7 +1363,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-014",
+  "id": "mk-018",
   "category": "market",
   "title": "QuTech coordinates European effort to build world's first full-stack quantum internet prototype",
   "source": "QuTech",
@@ -1196,7 +1386,7 @@
   "added": "2026-10-19"
  },
  {
-  "id": "mk-015",
+  "id": "mk-019",
   "category": "market",
   "title": "Quantum Computing Stocks Rebound After Dilution Scare",
   "source": "24/7 Wall St.",
@@ -1218,7 +1408,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-016",
+  "id": "mk-020",
   "category": "market",
   "title": "오큐티, 140억 투자 유치…오류내성 양자컴퓨터 개발 속도",
   "source": "이데일리",
@@ -1242,7 +1432,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-017",
+  "id": "mk-021",
   "category": "market",
   "title": "IonQ and the University of Cambridge Open the IonQ Quantum Innovation Centre at Cavendish Laboratory's Ray Dolby Centre",
   "source": "IonQ",
@@ -1265,7 +1455,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-018",
+  "id": "mk-022",
   "category": "market",
   "title": "D-Wave Delivers Italy's First Annealing Quantum Computer",
   "source": "D-Wave",
@@ -1288,7 +1478,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-019",
+  "id": "mk-023",
   "category": "market",
   "title": "Qilimanjaro Quantum Tech announces a nearly €20 million first close of its Series A, led by Indra Group",
   "source": "Qilimanjaro",
@@ -1311,7 +1501,7 @@
   "added": "2026-10-19"
  },
  {
-  "id": "mk-020",
+  "id": "mk-024",
   "category": "market",
   "title": "Mayor Mamdani Announces New NYU Quantum Fabrication Facility (QFab)",
   "source": "NYC Mayor's Office",
@@ -1333,7 +1523,7 @@
   "added": "2026-10-19"
  },
  {
-  "id": "mk-021",
+  "id": "mk-025",
   "category": "market",
   "title": "13개국 퀀텀개발그룹, 안전하고 신뢰할 수 있는 퀀텀 생태계 구축을 위한 협력 의지 다져",
   "source": "외교부 (대한민국 정책브리핑)",
@@ -1357,7 +1547,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-022",
+  "id": "mk-026",
   "category": "market",
   "title": "Quantum firms backed to keep railways running and cut waiting lists as UK harnesses potential of future tech",
   "source": "GOV.UK (DSIT/UKRI)",
@@ -1380,7 +1570,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-023",
+  "id": "mk-027",
   "category": "market",
   "title": "NVIDIA backs UK AI and quantum ecosystem (planned investment in Riverlane)",
   "source": "NVIDIA Blog",
@@ -1403,7 +1593,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "mk-024",
+  "id": "mk-028",
   "category": "market",
   "title": "IonQ to Acquire Elisity for $1.3B to Advance Quantum Security",
   "source": "IonQ",
@@ -1424,7 +1614,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-025",
+  "id": "mk-029",
   "category": "market",
   "title": "Four more teams enter Quantum Benchmarking Initiative's final stage",
   "source": "DARPA",
@@ -1451,7 +1641,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-026",
+  "id": "mk-030",
   "category": "market",
   "title": "Universal Quantum raises over $100m Series A",
   "source": "Universal Quantum",
@@ -1473,7 +1663,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-027",
+  "id": "mk-031",
   "category": "market",
   "title": "Oratomic Raises $775 Million in Total Funding to Build Utility-Scale Fault-Tolerant Quantum Computers",
   "source": "Oratomic",
@@ -1499,7 +1689,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/25"
  },
  {
-  "id": "mk-028",
+  "id": "mk-032",
   "category": "market",
   "title": "과기정통부, 양자 기술 사업화 간담회 개최",
   "source": "전자신문",
@@ -1522,7 +1712,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-029",
+  "id": "mk-033",
   "category": "market",
   "title": "IonQ Superion 256 to Power NVIDIA Quantum Research Center",
   "source": "IonQ",
@@ -1544,7 +1734,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-030",
+  "id": "mk-034",
   "category": "market",
   "title": "D-Wave 8-K: CHIPS award finalized, shares issued to Commerce",
   "source": "SEC (D-Wave)",
@@ -1566,7 +1756,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-031",
+  "id": "mk-035",
   "category": "market",
   "title": "슈퍼컴 6호기+아이온큐 양자컴퓨터, 내년 상반기 서비스",
   "source": "ZDNet Korea",
@@ -1588,7 +1778,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-032",
+  "id": "mk-036",
   "category": "market",
   "title": "서울·전남광주·부울경에 양자클러스터…산업 생태계 조성",
   "source": "연합뉴스",
@@ -1610,7 +1800,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/19"
  },
  {
-  "id": "mk-033",
+  "id": "mk-037",
   "category": "market",
   "title": "DOE Launches Competition to Accelerate Development of World's First Fault-Tolerant Quantum Computer (Quantum Genesis Q)",
   "source": "U.S. Department of Energy",
@@ -1631,7 +1821,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-034",
+  "id": "mk-038",
   "category": "market",
   "title": "Pasqal and Bleichroeder Acquisition Corp. II Complete Business Combination",
   "source": "Pasqal",
@@ -1653,7 +1843,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-035",
+  "id": "mk-039",
   "category": "market",
   "title": "IonQ Announces Record Second Quarter 2026 Revenues, Growing 287% YoY",
   "source": "IonQ IR",
@@ -1673,7 +1863,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-036",
+  "id": "mk-040",
   "category": "market",
   "title": "IonQ Completes Acquisition of SkyWater Technology",
   "source": "IonQ",
@@ -1694,7 +1884,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-037",
+  "id": "mk-041",
   "category": "market",
   "title": "IBM CEO says quantum computing will have a 'measurable impact' on earnings by 2028 or 2029",
   "source": "CNBC",
@@ -1714,7 +1904,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-038",
+  "id": "mk-042",
   "category": "market",
   "title": "PsiQuantum's billion-dollar Brisbane project starts construction at new Moreton Bay site",
   "source": "Australian Financial Review",
@@ -1735,7 +1925,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-039",
+  "id": "mk-043",
   "category": "market",
   "title": "Atom Computing Raises More Than $300 Million",
   "source": "PR Newswire",
@@ -1757,7 +1947,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-040",
+  "id": "mk-044",
   "category": "market",
   "title": "Honeywell's Quantinuum valued at $17.63 billion as shares rise in Nasdaq debut",
   "source": "Reuters",
@@ -1779,7 +1969,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/18"
  },
  {
-  "id": "mk-041",
+  "id": "mk-045",
   "category": "market",
   "title": "OQC raises £260m in Europe's largest ever private quantum computing funding round",
   "source": "OQC",
@@ -1802,7 +1992,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-042",
+  "id": "mk-046",
   "category": "market",
   "title": "Quobly secures €115 million Series A",
   "source": "Quobly",
@@ -1825,7 +2015,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-043",
+  "id": "mk-047",
   "category": "market",
   "title": "IBM Commits More Than $10 Billion to Quantum Computing",
   "source": "IBM Newsroom",
@@ -1845,7 +2035,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-044",
+  "id": "mk-048",
   "category": "market",
   "title": "Department of Commerce Announces Letters of Intent With 9 Companies for $2 Billion",
   "source": "NIST",
@@ -1877,7 +2067,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/17"
  },
  {
-  "id": "mk-045",
+  "id": "mk-049",
   "category": "market",
   "title": "Algorithmiq Establishes Milan Headquarters and raises €18m",
   "source": "Algorithmiq",
@@ -1900,7 +2090,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-046",
+  "id": "mk-050",
   "category": "market",
   "title": "Quantum firms race to market as the industry sees 'inflection point'",
   "source": "CNBC",
@@ -1923,7 +2113,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-047",
+  "id": "mk-051",
   "category": "market",
   "title": "Xanadu Announces Closing of Business Combination with Crane Harbor",
   "source": "Xanadu IR",
@@ -1945,7 +2135,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-048",
+  "id": "mk-052",
   "category": "market",
   "title": "Horizon Quantum Goes Public via SPAC, Raises $120 Million",
   "source": "The Quantum Insider",
@@ -1966,7 +2156,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-049",
+  "id": "mk-053",
   "category": "market",
   "title": "Pasqal new financing of at least €340 million in anticipation of its public listing",
   "source": "Pasqal",
@@ -1987,7 +2177,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-050",
+  "id": "mk-054",
   "category": "market",
   "title": "KISTI Partners with NVIDIA and IonQ to Build a Leading 'Quantum–HPC Hybrid' Infrastructure",
   "source": "KISTI",
@@ -2010,7 +2200,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-051",
+  "id": "mk-055",
   "category": "market",
   "title": "Infleqtion Becomes First Neutral-Atom Quantum Company to Go Public",
   "source": "Infleqtion IR",
@@ -2032,7 +2222,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-052",
+  "id": "mk-056",
   "category": "market",
   "title": "Science ministry unveils road map for quantum industry",
   "source": "Yonhap News Agency",
@@ -2058,7 +2248,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/19"
  },
  {
-  "id": "mk-053",
+  "id": "mk-057",
   "category": "market",
   "title": "D-Wave Completes Acquisition of Quantum Circuits Inc.",
   "source": "D-Wave",
@@ -2080,7 +2270,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "mk-054",
+  "id": "mk-058",
   "category": "market",
   "title": "PsiQuantum valued at $7 billion in latest funding round, teams up with Nvidia",
   "source": "Reuters",
@@ -2105,6 +2295,102 @@
  {
   "id": "pq-001",
   "category": "pqc",
+  "title": "Consultation Paper on Quantum-Safe Migration Guidance and Timelines for the Financial Sector (P019-2026)",
+  "source": "Monetary Authority of Singapore",
+  "date": "2026-11-06",
+  "date_precision": "day",
+  "url": "https://www.mas.gov.sg/publications/consultations/2026/consultation-paper-on-quantum-safe-migration-guidance-and-timelines-for-the-financial-sector",
+  "summary_ko": "싱가포르 MAS가 금융기관의 양자내성 전환 감독 기대와 일정을 제시하는 의견수렴안(P019-2026)을 공개했다(의견 마감 11/23). 언론 보도에 따르면 전환계획 제출 2027년 말, 핵심 시스템 2030년 말, 나머지 2034년 말을 제안하며, 위원회 소유권·암호자산 목록화·위험기반 이행계획을 요구한다.",
+  "summary_en": "MAS published consultation P019-2026 on quantum-safe migration for financial institutions (closes 11/23); per reports it proposes plans by end-2027, critical systems by end-2030, all systems by end-2034.",
+  "tags": [
+   "finance",
+   "regulation",
+   "Singapore",
+   "timeline"
+  ],
+  "entities": [
+   "MAS"
+  ],
+  "importance": 4,
+  "added": "2026-11-09",
+  "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/46"
+ },
+ {
+  "id": "pq-002",
+  "category": "pqc",
+  "title": "Post-Quantum Questions to Ask Your Vendors",
+  "source": "CISA / NSA / ASD's ACSC",
+  "date": "2026-11-05",
+  "date_precision": "day",
+  "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+  "summary_ko": "CISA·NSA·호주 ACSC가 공급업체의 PQC 전환 준비도를 평가하기 위한 공동 지침과 점검 질문 목록을 발표했다. 관리형 서비스·클라우드·산업제어·IoT처럼 갱신이 어려운 시스템은 벤더 준비도에 좌우되므로 조기·체계적 벤더 협의를 권고한다.",
+  "summary_en": "CISA, NSA and Australia's ACSC released joint guidance and a quick-reference list for assessing vendor PQC readiness.",
+  "tags": [
+   "guidance",
+   "vendor",
+   "supply-chain",
+   "CISA",
+   "NSA"
+  ],
+  "entities": [
+   "CISA",
+   "NSA",
+   "ACSC"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "pq-003",
+  "category": "pqc",
+  "title": "€1M from Sovereign Tech Agency to Fuel Post-Quantum Readiness at Let's Encrypt",
+  "source": "Let's Encrypt (ISRG)",
+  "date": "2026-11-05",
+  "date_precision": "day",
+  "url": "https://letsencrypt.org/2026/11/05/sta-pq-funding",
+  "summary_ko": "독일 Sovereign Tech Agency가 2027년 말까지 Let's Encrypt의 양자내성 Merkle Tree Certificate(MTC) 인증기관 개발에 100만 유로 이상을 지원한다. MTC는 인증서 묶음에 서명 하나를 적용해 PQ 서명으로 TLS 핸드셰이크가 10KB를 넘는 문제를 피하며, IETF·C2SP 표준화와 프로덕션 출시를 목표로 한다.",
+  "summary_en": "Sovereign Tech Agency is investing >€1M through 2027 in Let's Encrypt's post-quantum Merkle Tree Certificate CA, which keeps TLS handshakes small via batch signatures.",
+  "tags": [
+   "MTC",
+   "TLS",
+   "Web-PKI",
+   "funding",
+   "Let's Encrypt"
+  ],
+  "entities": [
+   "Let's Encrypt",
+   "ISRG",
+   "Sovereign Tech Agency"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "pq-004",
+  "category": "pqc",
+  "title": "HKMA and HKUST launch PQC Toolkit to support banks' quantum preparedness",
+  "source": "Hong Kong Monetary Authority",
+  "date": "2026-11-02",
+  "date_precision": "day",
+  "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-6/",
+  "summary_ko": "홍콩금융관리국(HKMA)과 HKUST가 은행의 PQC 전환 거버넌스·암호자산 평가·우선순위·공급업체 관리를 돕는 PQC 툴킷을 공개했다. 7월 도입한 양자준비지수(QPI)의 첫 점수는 10점 만점에 2.3이었고, 2030년까지 10점을 목표로 한다.",
+  "summary_en": "HKMA and HKUST launched a PQC Toolkit for banks; the initial Quantum Preparedness Index was 2.3/10 with a goal of 10 by 2030.",
+  "tags": [
+   "finance",
+   "toolkit",
+   "Hong Kong",
+   "regulation"
+  ],
+  "entities": [
+   "HKMA",
+   "HKUST"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "pq-005",
+  "category": "pqc",
   "title": "Alice & Bob sets record low for quantum resources required to break internet encryption",
   "source": "Alice & Bob",
   "date": "2026-10-29",
@@ -2128,7 +2414,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/41"
  },
  {
-  "id": "pq-002",
+  "id": "pq-006",
   "category": "pqc",
   "title": "IDEMIA Secure Transactions enables banks to prepare cards for the quantum era with industry-first certification",
   "source": "IDEMIA",
@@ -2151,7 +2437,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "pq-003",
+  "id": "pq-007",
   "category": "pqc",
   "title": "Subexponential-time elliptic curve discrete logarithms",
   "source": "ellipticnews (Steven Galbraith)",
@@ -2174,7 +2460,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "pq-004",
+  "id": "pq-008",
   "category": "pqc",
   "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards (NIST IR 8547 final)",
   "source": "NIST",
@@ -2198,7 +2484,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/40"
  },
  {
-  "id": "pq-005",
+  "id": "pq-009",
   "category": "pqc",
   "title": "What's new: IBM Quantum Safe enables confident post-quantum cryptography migration",
   "source": "IBM",
@@ -2219,7 +2505,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "pq-006",
+  "id": "pq-010",
   "category": "pqc",
   "title": "AWS KMS now supports ML-KEM post-quantum key encapsulation",
   "source": "AWS",
@@ -2240,7 +2526,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "pq-007",
+  "id": "pq-011",
   "category": "pqc",
   "title": "IST, 군통신 SIM에 양자내성암호 얹는다",
   "source": "ZDNet Korea",
@@ -2266,7 +2552,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "pq-008",
+  "id": "pq-012",
   "category": "pqc",
   "title": "SEALSQ Announces Intent to Acquire Capacity and Operational Services Associated with 12 WISeSat.Space Satellites for QSOC",
   "source": "SEALSQ",
@@ -2288,7 +2574,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "pq-009",
+  "id": "pq-013",
   "category": "pqc",
   "title": "Bringing post-quantum cryptography to geographically fenced key management",
   "source": "Cloudflare Blog",
@@ -2310,7 +2596,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "pq-010",
+  "id": "pq-014",
   "category": "pqc",
   "title": "Pinnacle 1.2: order-of-magnitude lower spacetime cost and RSA-2048 with ~48k-72k qubits",
   "source": "Iceberg Quantum",
@@ -2332,7 +2618,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "pq-011",
+  "id": "pq-015",
   "category": "pqc",
   "title": "11th UK-Singapore Financial Dialogue October 2026: Joint Statement",
   "source": "GOV.UK (HM Treasury)",
@@ -2357,7 +2643,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "pq-012",
+  "id": "pq-016",
   "category": "pqc",
   "title": "97% of Mobile Apps Show No Quantum-Safe Encryption, NowSecure Analysis of More Than 136,000 Apps Finds",
   "source": "NowSecure",
@@ -2378,7 +2664,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "pq-013",
+  "id": "pq-017",
   "category": "pqc",
   "title": "Post-quantum updates to our TLS guidance",
   "source": "NCSC (UK)",
@@ -2402,7 +2688,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/24"
  },
  {
-  "id": "pq-014",
+  "id": "pq-018",
   "category": "pqc",
   "title": "Palm Beach State College announces launch of first segment of the nation's first statewide quantum-safe network",
   "source": "Palm Beach State College",
@@ -2425,7 +2711,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "pq-015",
+  "id": "pq-019",
   "category": "pqc",
   "title": "Advisory on Quantum-Safe Migration for Organisations",
   "source": "Cyber Security Agency of Singapore",
@@ -2447,7 +2733,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/24"
  },
  {
-  "id": "pq-016",
+  "id": "pq-020",
   "category": "pqc",
   "title": "'Q-데이 임박'에 양자내성 전환 속도전…MS \"현실적 판단 필요한 때\"",
   "source": "디지털데일리",
@@ -2471,7 +2757,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-017",
+  "id": "pq-021",
   "category": "pqc",
   "title": "Working Together on Bitcoin's Post-Quantum Readiness",
   "source": "Coinbase",
@@ -2492,7 +2778,7 @@
   "added": "2026-10-19"
  },
  {
-  "id": "pq-018",
+  "id": "pq-022",
   "category": "pqc",
   "title": "Researchers Build First Working Post-Quantum Defense for Bitcoin's Lightning Network (PQLN)",
   "source": "Bitcoin Magazine",
@@ -2514,7 +2800,7 @@
   "added": "2026-10-19"
  },
  {
-  "id": "pq-019",
+  "id": "pq-023",
   "category": "pqc",
   "title": "Umstellung auf Post-Quanten-Kryptografie: Leitlinie zur nationalen Umsetzung der EU-Roadmap veröffentlicht",
   "source": "BSI (독일 연방정보보안청)",
@@ -2539,7 +2825,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/24"
  },
  {
-  "id": "pq-020",
+  "id": "pq-024",
   "category": "pqc",
   "title": "SEALSQ Unveils VaultIC409, a Quantum-Ready Secure Element",
   "source": "SEALSQ",
@@ -2561,7 +2847,7 @@
   "added": "2026-10-19"
  },
  {
-  "id": "pq-021",
+  "id": "pq-025",
   "category": "pqc",
   "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
   "source": "Microsoft Security Blog",
@@ -2585,7 +2871,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-022",
+  "id": "pq-026",
   "category": "pqc",
   "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
   "source": "Europol",
@@ -2606,7 +2892,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-023",
+  "id": "pq-027",
   "category": "pqc",
   "title": "NSA's 2027 PQC gate for national-security systems (CNSA 2.0)",
   "source": "QuantaKrypto",
@@ -2628,7 +2914,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-024",
+  "id": "pq-028",
   "category": "pqc",
   "title": "Post-Quantum Encryption Worldwide (Cloudflare Radar)",
   "source": "Cloudflare Radar",
@@ -2649,7 +2935,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-025",
+  "id": "pq-029",
   "category": "pqc",
   "title": "양자내성암호 전환, 내년부터 공공 사이버보안 실태 평가에 반영 (국정원 PQC 전환 종합 추진계획)",
   "source": "ZDNet Korea",
@@ -2672,7 +2958,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/22"
  },
  {
-  "id": "pq-026",
+  "id": "pq-030",
   "category": "pqc",
   "title": "EF Protocol: Current and Emerging Priorities",
   "source": "Ethereum Foundation Blog",
@@ -2693,7 +2979,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-027",
+  "id": "pq-031",
   "category": "pqc",
   "title": "RFC 10024: Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3",
   "source": "RFC Editor (IETF)",
@@ -2715,7 +3001,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-028",
+  "id": "pq-032",
   "category": "pqc",
   "title": "Discovering cryptographic weaknesses with Claude (HAWK key-recovery attack; HAWK withdrawn from NIST round 3)",
   "source": "Anthropic",
@@ -2739,7 +3025,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/35"
  },
  {
-  "id": "pq-029",
+  "id": "pq-033",
   "category": "pqc",
   "title": "New Windows Features to Secure Today's Data in a Post-Quantum World",
   "source": "Microsoft Tech Community",
@@ -2761,7 +3047,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-030",
+  "id": "pq-034",
   "category": "pqc",
   "title": "OMB M-26-15: Execution of the Migration to Post-Quantum Cryptography",
   "source": "White House OMB",
@@ -2785,7 +3071,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/24"
  },
  {
-  "id": "pq-031",
+  "id": "pq-035",
   "category": "pqc",
   "title": "정부, 국가 주요 인프라 '양자내성암호 전환' 확대",
   "source": "연합뉴스",
@@ -2808,7 +3094,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-032",
+  "id": "pq-036",
   "category": "pqc",
   "title": "Cloudflare targets 2029 for full post-quantum security",
   "source": "Cloudflare Blog",
@@ -2833,7 +3119,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/21"
  },
  {
-  "id": "pq-033",
+  "id": "pq-037",
   "category": "pqc",
   "title": "Quantum frontiers may be closer than they appear (Google's timeline for PQC migration)",
   "source": "Google (blog.google)",
@@ -2855,7 +3141,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/21"
  },
  {
-  "id": "pq-034",
+  "id": "pq-038",
   "category": "pqc",
   "title": "Safeguarding cryptocurrency by disclosing quantum vulnerabilities responsibly",
   "source": "Google Research",
@@ -2877,7 +3163,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/20"
  },
  {
-  "id": "pq-035",
+  "id": "pq-039",
   "category": "pqc",
   "title": "Shor's algorithm is possible with as few as 10,000 reconfigurable atomic qubits (arXiv:2603.28627)",
   "source": "arXiv / Oratomic",
@@ -2900,7 +3186,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/20"
  },
  {
-  "id": "pq-036",
+  "id": "pq-040",
   "category": "pqc",
   "title": "Bitcoin Took Its First Step Against Quantum Computers (BIP-360)",
   "source": "Forbes",
@@ -2921,7 +3207,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-037",
+  "id": "pq-041",
   "category": "pqc",
   "title": "New Architecture Could Cut Quantum Hardware Needed to Break RSA-2048 by Tenfold (Pinnacle)",
   "source": "The Quantum Insider",
@@ -2942,7 +3228,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-038",
+  "id": "pq-042",
   "category": "pqc",
   "title": "KpqC SMAUG-T & HAETAE official site (KpqC final algorithms)",
   "source": "CryptoLab / KpqC",
@@ -2964,7 +3250,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-039",
+  "id": "pq-043",
   "category": "pqc",
   "title": "FIPS 206 (FN-DSA) Status Update",
   "source": "NIST PQC Forum",
@@ -2985,7 +3271,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-040",
+  "id": "pq-044",
   "category": "pqc",
   "title": "Chrome Quantum-resistant Root Program - FAQ (Merkle Tree Certificates)",
   "source": "Google Chrome",
@@ -3007,7 +3293,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-041",
+  "id": "pq-045",
   "category": "pqc",
   "title": "Post-Quantum Cryptography APIs Now Generally Available on Microsoft Platforms",
   "source": "Microsoft Tech Community",
@@ -3029,7 +3315,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-042",
+  "id": "pq-046",
   "category": "pqc",
   "title": "Signal Protocol and Post-Quantum Ratchets (SPQR)",
   "source": "Signal",
@@ -3050,7 +3336,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-043",
+  "id": "pq-047",
   "category": "pqc",
   "title": "A Coordinated Implementation Roadmap for the Transition to Post-Quantum Cryptography (EU)",
   "source": "European Commission",
@@ -3071,7 +3357,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-044",
+  "id": "pq-048",
   "category": "pqc",
   "title": "Get ahead with quantum-secure cryptography (WWDC25)",
   "source": "Apple Developer",
@@ -3092,7 +3378,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-045",
+  "id": "pq-049",
   "category": "pqc",
   "title": "How to factor 2048 bit RSA integers with less than a million noisy qubits (arXiv:2505.15917)",
   "source": "arXiv / Google",
@@ -3112,7 +3398,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-046",
+  "id": "pq-050",
   "category": "pqc",
   "title": "NIST Selects HQC as Fifth Algorithm for Post-Quantum Encryption",
   "source": "NIST",
@@ -3133,7 +3419,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "pq-047",
+  "id": "pq-051",
   "category": "pqc",
   "title": "NIST IR 8547 (Initial Public Draft): Transition to Post-Quantum Cryptography Standards",
   "source": "NIST",
@@ -3156,6 +3442,33 @@
  {
   "id": "sw-001",
   "category": "software",
+  "title": "Breaking the quantum barriers for Graph Collision",
+  "source": "arXiv (arXiv:2611.05356)",
+  "date": "2026-11",
+  "date_precision": "month",
+  "url": "https://arxiv.org/abs/2611.05356",
+  "summary_ko": "그래프 충돌(graph collision) 문제에서 추측되던 Ω(n^{2/3}) 질의 하한을 반박하는 양자 알고리즘(Õ(n^{11/17}) 질의)을 제시한 논문이다. 동시에 Ω(√(n log n)) 하한도 증명해 O(√n) 알고리즘 가능성은 배제했다. 삼각형 찾기 등의 부분루틴으로 쓰이는 기본 문제라 알고리즘 이론상 의미가 있다.",
+  "summary_en": "Preprint refutes the conjectured Ω(n^{2/3}) lower bound for graph collision with an Õ(n^{11/17})-query quantum algorithm and proves an Ω(√(n log n)) lower bound.",
+  "tags": [
+   "algorithm",
+   "query-complexity",
+   "graph-collision",
+   "theory"
+  ],
+  "entities": [
+   "Le Gall",
+   "Cornelissen",
+   "Gilani",
+   "Kintali",
+   "Patro",
+   "Zhou"
+  ],
+  "importance": 3,
+  "added": "2026-11-09"
+ },
+ {
+  "id": "sw-002",
+  "category": "software",
   "title": "Ultra-large-scale compilation and manipulation of quantum circuits with Pandora (npj Quantum Information)",
   "source": "npj Quantum Information / Aalto University",
   "date": "2026-10-30",
@@ -3176,7 +3489,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "sw-002",
+  "id": "sw-003",
   "category": "software",
   "title": "Quantinuum and Oracle advance hybrid quantum-AI computing with early access to Helios",
   "source": "Quantinuum",
@@ -3199,7 +3512,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "sw-003",
+  "id": "sw-004",
   "category": "software",
   "title": "Announcing the Verifiable Quantum Circuit Compilation Competition on Kaggle",
   "source": "Google Open Source Blog",
@@ -3222,7 +3535,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "sw-004",
+  "id": "sw-005",
   "category": "software",
   "title": "Leveraging verifiable structure in quantum circuits to find more efficient compilations with agentic AI (arXiv:2610.23832)",
   "source": "arXiv / Google Quantum AI",
@@ -3244,7 +3557,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "sw-005",
+  "id": "sw-006",
   "category": "software",
   "title": "qBraid launches qBraid OS for QPU operators",
   "source": "qBraid",
@@ -3267,7 +3580,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "sw-006",
+  "id": "sw-007",
   "category": "software",
   "title": "NVIDIA runs record simulation of fault-tolerant quantum computing at Jülich Supercomputing Centre",
   "source": "NVIDIA Newsroom",
@@ -3290,7 +3603,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "sw-007",
+  "id": "sw-008",
   "category": "software",
   "title": "Correlated decoding loses the surface code’s effective distance below threshold (arXiv:2610.26785)",
   "source": "arXiv / Leiden University, Riverlane",
@@ -3312,7 +3625,7 @@
   "added": "2026-10-26"
  },
  {
-  "id": "sw-008",
+  "id": "sw-009",
   "category": "software",
   "title": "Designing more efficient quantum circuits with Claude",
   "source": "Anthropic",
@@ -3333,7 +3646,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-009",
+  "id": "sw-010",
   "category": "software",
   "title": "Qiskit 2.6.0 release",
   "source": "Qiskit (GitHub)",
@@ -3355,7 +3668,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-010",
+  "id": "sw-011",
   "category": "software",
   "title": "Amazon Braket now in scope for FedRAMP Class C",
   "source": "AWS",
@@ -3377,7 +3690,7 @@
   "added": "2026-10-19"
  },
  {
-  "id": "sw-011",
+  "id": "sw-012",
   "category": "software",
   "title": "FirstQFM Model Cuts Single-Qubit Gate Times 33% on QuantWare Processor",
   "source": "The Quantum Insider",
@@ -3400,7 +3713,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-012",
+  "id": "sw-013",
   "category": "software",
   "title": "EigenOrbit Releases Open-Source eigenkit Quantum Computing Library",
   "source": "The Quantum Insider",
@@ -3421,7 +3734,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-013",
+  "id": "sw-014",
   "category": "software",
   "title": "Software advance could aid quantum progress (fast Gaussian boson sampling emulator)",
   "source": "University of Edinburgh",
@@ -3444,7 +3757,7 @@
   "added": "2026-10-19"
  },
  {
-  "id": "sw-014",
+  "id": "sw-015",
   "category": "software",
   "title": "Quantum advantage via public cloud on IBM Nighthawk (random circuit sampling)",
   "source": "BlueQubit",
@@ -3467,7 +3780,7 @@
   "added": "2026-11-02"
  },
  {
-  "id": "sw-015",
+  "id": "sw-016",
   "category": "software",
   "title": "Scaling AI-driven chip design with open agent factories",
   "source": "IBM Research",
@@ -3489,7 +3802,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-016",
+  "id": "sw-017",
   "category": "software",
   "title": "Bring your own decoder: hierarchical QEC decoding with Backline, NVIDIA Ising, and PyMatching",
   "source": "PennyLane Blog (Xanadu)",
@@ -3513,7 +3826,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-017",
+  "id": "sw-018",
   "category": "software",
   "title": "Simulating NMR on a Quantum Computer: A Step Toward Practical Quantum Chemistry",
   "source": "Quantinuum",
@@ -3536,7 +3849,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-018",
+  "id": "sw-019",
   "category": "software",
   "title": "Haiqu Releases AgenticOS to Plan and Check Quantum Research",
   "source": "The Quantum Insider",
@@ -3558,7 +3871,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-019",
+  "id": "sw-020",
   "category": "software",
   "title": "Low-Overhead Quantum Error Correction with Boundary-Connected Planar Modules (arXiv:2610.03682)",
   "source": "arXiv / Google Quantum AI & DeepMind",
@@ -3582,7 +3895,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/26"
  },
  {
-  "id": "sw-020",
+  "id": "sw-021",
   "category": "software",
   "title": "D-Wave Launches Gate-Model Simulator Beta Program, Advancing Error-Aware Programming Capabilities",
   "source": "D-Wave",
@@ -3606,7 +3919,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-021",
+  "id": "sw-022",
   "category": "software",
   "title": "Exponential quantum advantages for decoded quantum interferometry in the streaming setting (arXiv:2610.01902)",
   "source": "arXiv",
@@ -3626,7 +3939,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-022",
+  "id": "sw-023",
   "category": "software",
   "title": "A provable quantum advantage for approximate optimization via decoded quantum interferometry (arXiv:2610.02145)",
   "source": "arXiv",
@@ -3646,7 +3959,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-023",
+  "id": "sw-024",
   "category": "software",
   "title": "IonQ Demonstrates Industry's First End-to-End Real-Time Quantum Error Decoder",
   "source": "IonQ",
@@ -3667,7 +3980,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-024",
+  "id": "sw-025",
   "category": "software",
   "title": "CUDA-Q 0.16.0 release (CUDA-Q Logical 0.1.1)",
   "source": "NVIDIA CUDA-Q docs",
@@ -3689,7 +4002,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-025",
+  "id": "sw-026",
   "category": "software",
   "title": "Guppy v1 stable release / Nexus Developer Platform 26.1",
   "source": "Quantinuum Docs",
@@ -3710,7 +4023,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-026",
+  "id": "sw-027",
   "category": "software",
   "title": "IBM's Three Quantum Advantage Claims, Fact-Checked",
   "source": "PostQuantum.com",
@@ -3735,7 +4048,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/15"
  },
  {
-  "id": "sw-027",
+  "id": "sw-028",
   "category": "software",
   "title": "Release News: Qiskit v2.5 is here!",
   "source": "IBM Quantum Blog",
@@ -3757,7 +4070,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-028",
+  "id": "sw-029",
   "category": "software",
   "title": "Cirq v1.7.0 release",
   "source": "GitHub (quantumlib)",
@@ -3778,7 +4091,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-029",
+  "id": "sw-030",
   "category": "software",
   "title": "AWS Deepens Strategic Collaboration with QuEra to Bring Fault-Tolerant Quantum Computing to Amazon Braket",
   "source": "AWS Quantum Technologies Blog",
@@ -3800,7 +4113,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-030",
+  "id": "sw-031",
   "category": "software",
   "title": "Majorana 2, made more reliable with Microsoft Discovery agentic AI",
   "source": "Microsoft",
@@ -3821,7 +4134,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-031",
+  "id": "sw-032",
   "category": "software",
   "title": "Stim v1.16.0 - Flowing Circuits",
   "source": "GitHub (quantumlib)",
@@ -3842,7 +4155,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-032",
+  "id": "sw-033",
   "category": "software",
   "title": "Amazon Braket launches Rigetti Cepheus-1-108Q superconducting device",
   "source": "AWS Quantum Technologies Blog",
@@ -3864,7 +4177,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-033",
+  "id": "sw-034",
   "category": "software",
   "title": "Tensor Networks with Belief Propagation Cannot Feasibly Simulate Google's Quantum Echoes Experiment (arXiv:2604.15427)",
   "source": "arXiv",
@@ -3886,7 +4199,7 @@
   "github_issue": "https://github.com/litkhai/notes-on-quantum/issues/16"
  },
  {
-  "id": "sw-034",
+  "id": "sw-035",
   "category": "software",
   "title": "Google Opens Early Access to 'Willow' Quantum Processor, Invites Experimental Proposals",
   "source": "The Quantum Insider",
@@ -3907,7 +4220,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-035",
+  "id": "sw-036",
   "category": "software",
   "title": "Introducing cudaq-realtime for programming the Logical QPU",
   "source": "NVIDIA CUDA-Q Blog",
@@ -3929,7 +4242,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-036",
+  "id": "sw-037",
   "category": "software",
   "title": "Powerful new developer tools increase the versatility of the Microsoft Quantum platform",
   "source": "Microsoft Azure Quantum Blog",
@@ -3950,7 +4263,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-037",
+  "id": "sw-038",
   "category": "software",
   "title": "Tianyan: Cloud services with quantum advantage (arXiv:2512.10504)",
   "source": "arXiv",
@@ -3972,7 +4285,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-038",
+  "id": "sw-039",
   "category": "software",
   "title": "Quantum Advantage Tracker: the race to advantage",
   "source": "IBM Quantum Blog",
@@ -3996,7 +4309,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-039",
+  "id": "sw-040",
   "category": "software",
   "title": "NVIDIA Introduces NVQLink — Connecting Quantum and GPU Computing",
   "source": "NVIDIA Newsroom",
@@ -4017,7 +4330,7 @@
   "added": "2026-10-18"
  },
  {
-  "id": "sw-040",
+  "id": "sw-041",
   "category": "software",
   "title": "HSBC says quantum computing trial helps bond trading",
   "source": "Reuters",
