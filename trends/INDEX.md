@@ -1,14 +1,14 @@
 # 양자 기술 동향 인덱스
 
-_최종 업데이트: 2026-11-09 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일부 '참고 항목'은 기준 문서로 그 이전 포함) · 총 194건_
+_최종 업데이트: 2026-11-16 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일부 '참고 항목'은 기준 문서로 그 이전 포함) · 총 214건_
 
 > ⭐ = 중요도(1~5). 주요 항목은 GitHub 이슈(litkhai/notes-on-quantum)로도 기록됨. 날짜가 `YYYY-MM` 또는 `YYYY`인 항목은 출처에서 정확한 일자를 확인하지 못한 경우입니다. 원본 데이터: `index.jsonl`
 
 ## 목차
-- [1. 양자컴퓨팅 하드웨어·연구 돌파구](#hardware) (44건)
-- [2. 기업·투자·시장 동향 (정부 프로그램 포함)](#market) (58건)
-- [3. 양자내성암호(PQC)·보안](#pqc) (51건)
-- [4. 양자 소프트웨어·알고리즘·클라우드](#software) (41건)
+- [1. 양자컴퓨팅 하드웨어·연구 돌파구](#hardware) (47건)
+- [2. 기업·투자·시장 동향 (정부 프로그램 포함)](#market) (67건)
+- [3. 양자내성암호(PQC)·보안](#pqc) (57건)
+- [4. 양자 소프트웨어·알고리즘·클라우드](#software) (43건)
 
 <a id="hardware"></a>
 ## 1. 양자컴퓨팅 하드웨어·연구 돌파구
@@ -24,8 +24,15 @@ _최종 업데이트: 2026-11-09 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
 - **(10월 4주 업데이트) 논리 오류율 경쟁이 '10⁻⁶대'로 진입**: 퀀티누엄 Helios가 컬러 코드로 논리 충실도 99.9995%(자사 9월 기록 대비 10배, 거리 증가당 오류 12배 감소)를 보고했다([Quantinuum](https://ir.quantinuum.com/news-releases/news-release-details/quantinuum-breaks-error-correction-world-record-10x-validating)). IBM은 120큐비트 Nighthawk 2개를 80cm 케이블 L-커플러 4개로 연결(원거리 CZ 평균 94.75%)해 모듈형 초전도 확장의 실물을 보였고([arXiv](https://arxiv.org/abs/2610.29986)), Alice & Bob은 PROQCIMA 1단계에서 캣 큐비트 반복 코드·비클리포드 게이트를 시연했으나 아직 임계값 미달([Alice & Bob](https://alice-bob.com/newsroom/alice-bob-results/)).
 - **(11월 1주 업데이트) 전체 칩 얽힘·고전 시뮬레이션 한계·측정 없는 QEC**: IQM이 54큐비트 Emerald 전체를 GHZ 상태로 얽히게 하고(충실도 0.516, 판독 오류 완화) 칩 전체를 클라우드에 개방했다([IQM](https://investors.iqm.tech/news-releases/news-release-details/iqm-demonstrates-entanglement-across-complete-54-qubit-processor)). Pasqal은 256원자 이징 퀜치에서 텐서 네트워크 방법끼리 결과가 갈리는 이완 둔화 영역을 관측했다([Pasqal](https://www.pasqal.com/newsroom/pasqals-neutral-atom-processor-uncovers-quantum-magnet-behavior-that-theory-did-not-predict/)). USTC 연구진은 측정·피드백 없는 자율 QEC로 단일 이온에서 손익분기점을 넘었다([Nature Physics](https://www.nature.com/articles/s41567-026-03486-y)). PsiQuantum은 양자용 포토닉스로 AI 데이터센터 광스위치를 내놓으며 단기 상업화 경로를 보였다([PsiQuantum](https://www.businesswire.com/news/home/20261028890054/en/PsiQuantum-Unveils-Optical-Circuit-Switch-Technology-Built-on-Advanced-Low-Loss-Silicon-Photonics-Platform)).
 - **오류정정은 'QEC+HPC 공동설계' 단계로**: IBM·ORNL·AMD가 Nighthawk와 GPU HPC를 같은 위치에 둔 플랫폼을 공개하며 DOE Q 경쟁 목표(2028년 100 논리큐비트·10만 연산)까지 약 230배 격차를 제시([ORNL](https://www.ornl.gov/news/ornl-ibm-and-amd-launch-new-co-design-platform-for-quantum-error-correction/)). 유니버설 퀀텀 iQPU 등 파운드리 제조형 칩 경쟁도 계속([Universal Quantum](https://universalquantum.com/knowledge-hub/universal-quantum-launches-the-iqpu-a-chip-designed-to-take-quantum-computers-to-scale)).
+- **(11월 2주 업데이트) 초전도 모듈형 로드맵 구체화**: IBM이 QDC 2026에서 520큐비트(물리 2,034개)·1만 연산 목표의 Nighthawk r3와 l-coupler 10개를 공개하고, 2027년 두 칩을 묶은 1,040큐비트 시스템을 예고했다([IBM](https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027)). 리게티는 108큐비트 칩렛 시스템에서 중앙값 2큐비트 충실도 99.5%를 달성했고, 한국 플래그십 사업은 초전도 큐비트 결맞음 100μs 이상·얽힘 99%를 보고했다([연합뉴스](https://www.yna.co.kr/view/AKR20261109143700017)). RIKEN Reimei는 퀀티누엄 H2(56큐비트)로 업그레이드돼 후가쿠·GPU와 하이브리드 프로젝트를 시작했다.
 
 ### 항목 (최신순)
+- **2026-11-11** [IBM Quantum Nighthawk Demonstrates New Levels of Speed and Quality, with Plans to Scale Beyond 1,000 Qubits in 2027](https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027) — IBM Newsroom ⭐⭐⭐⭐ · [이슈 #50](https://github.com/litkhai/notes-on-quantum/issues/50)  
+  IBM이 QDC 2026에서 차세대 프로세서 Nighthawk r3를 발표했다.
+- **2026-11-10** [양자컴퓨터 개발 속도…큐비트 정보 유지시간 목표 조기 달성 (양자과학기술 플래그십 프로젝트 연례회의)](https://www.yna.co.kr/view/AKR20261109143700017) — 연합뉴스 / 과학기술정보통신부 ⭐⭐⭐  
+  과기정통부가 양자 플래그십 프로젝트(3대 분야 26개 과제) 첫해 성과를 공유하는 연례회의를 열었다.
+- **2026-11-10** [Reimei Powers Up to Help Japan Lead the Next Era of Discovery](https://www.quantinuum.com/blog/quantinuum-and-riken-announcement) — Quantinuum Blog ⭐⭐⭐  
+  RIKEN과 퀀티누엄이 RIKEN의 양자컴퓨터 Reimei를 56큐비트 System Model H2로 업그레이드했다.
 - **2026-11-06** [IBM Unveils Its Most Advanced Quantum Computer in Chicago](https://newsroom.ibm.com/2026-11-06-ibm-unveils-its-most-advanced-quantum-computer-in-chicago,-marking-a-milestone-for-illinoiss-quantum-future) — IBM Newsroom ⭐⭐⭐  
   IBM이 시카고대 Hyde Park Labs에 일리노이주 최초의 IBM Quantum System Two(Nighthawk 칩 기반)를 공개해 가동에 들어갔다.
 - **2026-11-05** [ORNL, IBM and AMD launch new co-design platform for quantum error correction](https://www.ornl.gov/news/ornl-ibm-and-amd-launch-new-co-design-platform-for-quantum-error-correction/) — Oak Ridge National Laboratory ⭐⭐⭐  
@@ -129,14 +136,33 @@ _최종 업데이트: 2026-11-09 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
 - **(10월 4주 업데이트) 주·국가 단위 인프라 투자와 QEC 생태계 투자**: 뉴욕주가 스토니브룩 양자 허브 3억 달러 등 총 3.6억 달러를 재확인([NY](https://www.governor.ny.gov/news/governor-hochul-announces-new-study-highlighting-new-yorks-position-national-leader-quantum)), 한국은 KT·SK브로드밴드 컨소시엄으로 개방형 양자 테스트베드(QKD 전국 확대·해외 연동, 올해 74억 원)를 착수했다([연합뉴스](https://www.yna.co.kr/view/AKR20261021081600017)). NVIDIA의 Riverlane 전략 투자 계획([NVIDIA](https://blogs.nvidia.com/blog/uk-ecosystem-deployment/))과 QuantrolOx 1,200만 유로 등 제어·오류정정 '도구 계층'으로 자금이 이동.
 - **(11월 1주 업데이트) 역대 최대 양자 M&A와 한국 정책금융 확대**: 인텔이 Classiq 인수를 발표했다(보도 기준 약 23억 달러, 역대 최대, 2027년 상반기 마감 예상)([Intel](https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum)). 한국은 국민성장펀드 지원 대상에 양자를 추가하는 산업은행법 시행령 개정을 입법예고했고([연합뉴스](https://www.yna.co.kr/view/AKR20261022061700002)), LG CNS·D-Wave는 서울 Qubits Asia에서 양자 최적화 협력 MOU를 맺었다([D-Wave](https://ir.dwavequantum.com/news/news-details/2026/LG-CNS-and-D-Wave-Announce-Strategic-Relationship-to-Advance-Quantum-Optimization-Adoption-in-South-Korea/default.aspx)). 이번 주 IonQ(11/5)·D-Wave·Rigetti(11/10) 3분기 실적 발표가 예정돼 있다.
 - **상장 양자 기업 3분기 실적 상향**: IonQ 매출 1.738억 달러(+336%)·연 가이던스 5.05~5.15억 달러([IonQ](https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Record-3Q26-Revenues-and-Raises-FY2026-Guidance-to-505---515-Million-as-Backlog-Grows-to-1-2-Billion/), SkyWater 매출 포함), 퀀티누엄 910만 달러·가이던스 3,100만~3,400만 달러([Quantinuum](https://ir.quantinuum.com/news-releases/news-release-details/quantinuum-reports-third-quarter-2026-results-and-raises-full)). 한국은 양자법 시행령 개정안 입법예고(11/4~11/9)로 11/20 시행 준비.
+- **(11월 2주 업데이트) 반도체·소프트웨어 자본이 양자로 유입, 정부 지원은 본계약 단계로**: AMD가 PsiQuantum 지분 투자와 GPU·CPU·FPGA 공동설계를 발표했고([PsiQuantum/AMD](https://www.businesswire.com/news/home/20261112481657/en/PsiQuantum-and-AMD-Collaborate-to-Build-the-Computing-Foundation-for-Utility-Scale-Quantum-Computing)), Q-CTRL은 2.9억 달러 시리즈 C로 소프트웨어 양자 기업 최대 투자를 기록했다([Q-CTRL](https://q-ctrl.com/blog/q-ctrl-secures-us-290-million-series-c-funding-led-by-salesforce-ventures-to-accelerate-the-convergence-of-quantum-and-ai)). D-Wave(매출 450만 달러, 누적 수주 +611%)·리게티(매출 141만 달러, 연 2,000만 달러 전망)는 IonQ 대비 매출 규모 격차가 뚜렷했다. 상무부 CHIPS 지원은 D-Wave·Atom Computing 등 본계약으로 전환 중이며, 미 CUSP 예비 보고서와 EU 양자법 초안(EU 기업 우대·PQC 조달 의무)은 '산업·공급망 주권' 경쟁을 예고한다. 한국 양자기술산업법 개정안은 11/20 시행.
 
 ### 항목 (최신순)
+- **2026-11-13** [Department of Commerce Announces Finalization of CHIPS R&D Award with Atom Computing Inc.](https://www.nist.gov/news-events/news/2026/11/department-commerce-announces-finalization-chips-rd-award-atom-computing) — NIST (U.S. Department of Commerce) ⭐⭐⭐  
+  미 상무부 CHIPS R&D 사무국이 중성원자 양자컴퓨팅 기업 Atom Computing과 최대 1억 달러 규모 R&D 지원 본계약을 체결했다.
+- **2026-11-12** [PsiQuantum and AMD Collaborate to Build the Computing Foundation for Utility-Scale Quantum Computing](https://www.businesswire.com/news/home/20261112481657/en/PsiQuantum-and-AMD-Collaborate-to-Build-the-Computing-Foundation-for-Utility-Scale-Quantum-Computing) — Business Wire (PsiQuantum / AMD) ⭐⭐⭐⭐ · [이슈 #51](https://github.com/litkhai/notes-on-quantum/issues/51)  
+  AMD와 PsiQuantum이 유틸리티급 내결함성 양자컴퓨터 운영용 컴퓨팅 인프라를 공동 설계하는 전략적 파트너십 확대를 발표했고, AMD가 PsiQuantum에 지분 투자할 계획이다(금액 비공개).
+- **2026-11-12** [Q-CTRL Secures US$290 Million Series C Funding Led by Salesforce Ventures to Accelerate the Convergence of Quantum and AI](https://q-ctrl.com/blog/q-ctrl-secures-us-290-million-series-c-funding-led-by-salesforce-ventures-to-accelerate-the-convergence-of-quantum-and-ai) — Q-CTRL ⭐⭐⭐⭐ · [이슈 #52](https://github.com/litkhai/notes-on-quantum/issues/52)  
+  호주 Q-CTRL이 Salesforce Ventures 주도로 2억 9,000만 달러(4억 1,500만 호주달러) 시리즈 C를 유치해 유니콘이 됐다.
+- **2026-11-10** [D-Wave Reports Third Quarter 2026 Results](https://ir.dwavequantum.com/news/news-details/2026/D-Wave-Reports-Third-Quarter-2026-Results/default.aspx) — D-Wave IR ⭐⭐⭐  
+  D-Wave의 3분기 매출은 450만 달러(+21%), 순손실 4,820만 달러였고, 1~9월 누적 수주는 3,740만 달러(+611%), 잔여 이행의무(RPO)는 3,830만 달러(+1,221%)였다.
+- **2026-11-10** [Rigetti Computing reports third quarter 2026 financial results](https://www.rigetti.com/news/rigetti-computing-reports-third-quarter-2026-financial-results) — Rigetti Computing ⭐⭐⭐  
+  리게티의 3분기 매출은 141만 달러로 전년(195만 달러)보다 줄었고 영업손실은 3,320만 달러였다(1~9월 누적 매출 1,090만 달러, +110%).
+- **2026-11-10** [Commission on U.S. Quantum Primacy Releases Preliminary Report (Defining the American Quantum Era)](https://www.scsp.ai/2026/11/commission-on-u-s-quantum-primacy-releases-preliminary-report/) — SCSP ⭐⭐⭐  
+  SCSP가 소집한 미국 양자 우위 위원회(CUSP, 영·루한 상원의원 공동의장)가 예비 보고서를 내고, 연구 우위를 배치·제조 역량으로 전환해야 한다고 촉구했다.
+- **2026-11-10** [Draft EU Quantum Act Would Favor European Suppliers, Set Computing and Security Targets](https://thequantuminsider.com/2026/11/10/draft-eu-quantum-act-would-favor-european-suppliers-set-computing-and-security-targets/) — The Quantum Insider ⭐⭐⭐  
+  The Quantum Insider가 입수한 EU 양자법(Quantum Act) 초안에 따르면, 전략 프로젝트와 공공조달 참여를 원칙적으로 EU 통제 기업으로 제한하고(상호주의 파트너 예외), 2030년경 시스템당 오류정정 논리 큐비트 약 100개를 목표로 한다.
+- **2026-11-09** [IonQ and Carahsoft Partner to Bring Quantum Solutions to Public Sector](https://ionq.com/news/ionq-and-carahsoft-partner-to-bring-quantum-solutions-to-public-sector) — IonQ ⭐⭐  
+  IonQ가 미 정부 IT 조달 유통사 Carahsoft를 공공부문 총판으로 지정해 연방·주정부 기관이 리셀러를 통해 IonQ의 컴퓨팅·네트워킹·센싱·보안 제품을 구매할 수 있게 했다.
 - **2026-11-05** [IonQ Announces Record 3Q26 Revenues and Raises FY2026 Guidance to $505 - $515 Million as Backlog Grows to $1.2 Billion](https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Record-3Q26-Revenues-and-Raises-FY2026-Guidance-to-505---515-Million-as-Backlog-Grows-to-1-2-Billion/) — IonQ IR ⭐⭐⭐⭐ · [이슈 #45](https://github.com/litkhai/notes-on-quantum/issues/45)  
   IonQ가 3분기 매출 1억 7,380만 달러(전년 대비 +336%, 6분기 연속 최대)를 발표하고 2026년 매출 가이던스를 5.05~5.15억 달러로 상향했다.
 - **2026-11-05** [Quantinuum Reports Third Quarter 2026 Results and Raises Full-Year Revenue Outlook](https://ir.quantinuum.com/news-releases/news-release-details/quantinuum-reports-third-quarter-2026-results-and-raises-full) — Quantinuum IR ⭐⭐⭐  
   퀀티누엄이 3분기 매출 910만 달러(+233%)를 발표하고 2026년 매출 전망을 3,100만~3,400만 달러로 상향했다.
 - **2026-11-04** [양자과학기술 및 양자산업 육성에 관한 법률 시행령 일부개정령안 입법예고 (제2026-1057호)](https://www.moleg.go.kr/lawinfo/makingInfo.mo?lawCd=0&lawSeq=89298&lawType=TYPE5&mid=a10104010000) — 법제처 / 과학기술정보통신부 ⭐⭐⭐  
   과기정통부가 11월 20일 시행되는 개정 양자기술산업법의 위임사항을 담은 시행령 개정안을 입법예고했다(예고 2026-11-04~11-09).
+- **2026-11-04** [IonQ Completes Acquisition of Elisity, Extending Quantum Security for Enterprises and Government](https://www.ionq.com/news/ionq-completes-acquisition-of-elisity-extending-quantum-security-for-enterprises-and-government) — IonQ ⭐⭐⭐  
+  IonQ가 제로트러스트 보안 기업 Elisity 인수를 전액 주식 거래로 마감했다.
 - **2026-11-03** [Quint Computing Secures €9.1 Million in Record First Funding Round for German Quantum Computing](https://www.quint-computing.com/news/quint-computing-secures-9-1-million-record-first-funding-round/) — Quint Computing ⭐⭐⭐  
   독일 에를랑겐의 Quint Computing이 Vsquared 주도로 910만 유로 첫 투자 라운드를 마감했다(독일 양자 기업 최대 규모의 첫 라운드).
 - **2026-10-28** [LG CNS and D-Wave Announce Strategic Relationship to Advance Quantum Optimization Adoption in South Korea](https://ir.dwavequantum.com/news/news-details/2026/LG-CNS-and-D-Wave-Announce-Strategic-Relationship-to-Advance-Quantum-Optimization-Adoption-in-South-Korea/default.aspx) — D-Wave IR ⭐⭐  
@@ -262,8 +288,21 @@ _최종 업데이트: 2026-11-09 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
 - **(10월 4주 업데이트) 미 연방 PQC 계획 제출 시한(10/22) 경과, 실무 지표는 여전히 초기**: OMB M-26-15에 따른 기관별 전환 계획 제출 시한이 지났고, 영국·싱가포르는 금융권 양자내성 전환 감독 기대치를 논의([GOV.UK](https://www.gov.uk/government/publications/11th-uk-singapore-financial-dialogue-october-2026-joint-statement/11th-uk-singapore-financial-dialogue-october-2026-joint-statement)). 반면 모바일 앱 97%는 PQC 흔적이 없었다([NowSecure](https://www.nowsecure.com/press-releases/97-of-mobile-apps-show-no-quantum-safe-encryption-nowsecure-analysis-of-more-than-136000-apps-finds/)). Iceberg Pinnacle 1.2는 RSA-2048 해독 추정을 4.8만~7.2만 물리 큐비트로 낮춰 Q-Day 자원 추정 하락 추세를 이어갔다([Iceberg](https://www.iceberg-quantum.com/blog/releases/pinnacle-1-2/)).
 - **(11월 1주 업데이트) NIST 전환 일정 확정 + 해독 자원 추정 하락**: NIST IR 8547 최종본이 양자 취약 알고리즘을 2030년 이후 사용 중단 권고, 2035년 이후 금지로 확정했다([NIST](https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography)). Alice & Bob은 캣 큐비트 22,593개로 RSA-2048을 해독할 수 있다고 추정했다(비트 플립이 없다는 가정, Gidney 2025 대비 약 40배 적음)([Alice & Bob](https://alice-bob.com/newsroom/alice-bob-sets-record-low-for-quantum-resources-required-to-break-internet-encryption/)). 실무에서는 AWS KMS ML-KEM 지원([AWS](https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/))과 IDEMIA의 첫 EMVCo 인증 PQC 결제카드([IDEMIA](https://www.idemia.com/press-release/idemia-secure-transactions-enables-banks-prepare-cards-quantum-era-industry-first-certification-2026-10-29)) 등 인프라 단 채택이 이어졌다.
 - **금융권 PQC 전환 시한이 구체화**: 싱가포르 MAS 의견수렴안(핵심 시스템 2030·전체 2034 제안, [MAS](https://www.mas.gov.sg/publications/consultations/2026/consultation-paper-on-quantum-safe-migration-guidance-and-timelines-for-the-financial-sector)), 홍콩 HKMA PQC 툴킷, CISA·NSA·ACSC의 벤더 점검 질문 지침, Let's Encrypt MTC 지원 등 이행 단계 자료가 연이어 나옴.
+- **(11월 2주 업데이트) 블록체인 PQ 일정 단축 제안과 조달·클라우드 기본값화**: Ethlabs가 이더리움 양자내성 목표를 2027년(pqai27)으로 앞당기자고 제안하며 Quick Slots를 철회했다(거버넌스 승인 전)([Ethlabs](https://ethlabs.org/writings/pqai27.html)). 미 GSA는 연방 PQC 전환용 상용 제품 RFI(12/7 마감)를 냈고, Azure App Service·Functions는 X25519MLKEM768 하이브리드 TLS 자동 협상을 단계적으로 배포하기 시작했다([Azure](https://azure.github.io/AppService/2026/11/09/post-quantum-tls-app-service-azure-functions.html)). 국내에서는 한전KDN·한국퀀텀컴퓨팅이 전력망 PQC 실증 MOU를 맺었다.
 
 ### 항목 (최신순)
+- **2026-11-13** [Malaysia only Asean country at highest tier for post-quantum cryptography readiness, says Zahid](https://www.thestar.com.my/news/nation/2026/11/13/malaysia-only-asean-country-at-highest-tier-for-post-quantum-cryptography-readiness-says-zahid) — The Star (Bernama) ⭐⭐  
+  말레이시아 부총리가 'Asean Post-Quantum Cryptography Readiness 2026' 보고서에서 말레이시아가 아세안 국가 중 유일하게 PQC 전환 준비도 1등급(Tier 1)을 받았다고 의회 서면답변에서 밝혔다.
+- **2026-11-12** [Introducing Strongpoint MPC: Post-Quantum MPC, Without the Compromises](https://www.projecteleven.com/blog/introducing-strongpoint-mpc-post-quantum-mpc-without-the-compromises) — Project Eleven ⭐⭐  
+  Project Eleven이 해시 기반 PQ 서명(이더리움의 leanSPHINCS·leanXMSS)용 딜러리스 임계값 서명 제품 Strongpoint MPC를 커스터디 플랫폼에 출시했다.
+- **2026-11-12** [한전KDN·한국퀀텀컴퓨팅, 전력·에너지 분야 양자기술 협약](https://www.quantumtimes.net/news/articleView.html?idxno=57271) — 양자신문 ⭐⭐  
+  한전KDN과 한국퀀텀컴퓨팅(KQC)이 국가 PQC 전환 정책 대응과 에너지 분야 양자컴퓨팅 사업 발굴을 위한 MOU를 11월 12일 체결했다.
+- **2026-11-11** [An Ethlabs view on post-quantum and post-AI timelines: pqai27](https://ethlabs.org/writings/pqai27.html) — Ethlabs (Ethereum Magicians) ⭐⭐⭐⭐  
+  이더리움 연구 비영리단체 Ethlabs가 이더리움의 양자내성(및 'AI 이후' 내성) 목표를 2027년으로 앞당기자는 pqai27을 제안했다.
+- **2026-11-09** [GSA Seeks Industry Input on Post-Quantum Cryptography Readiness](https://www.executivegov.com/articles/gsa-rfi-post-quantum-cryptography-readiness) — ExecutiveGov ⭐⭐⭐  
+  미 연방조달청(GSA) 연방조달서비스가 연방기관의 PQC 전환을 지원할 상용 제품·서비스에 대한 정보요청(RFI)을 11월 9일 게시했다(마감 12월 7일).
+- **2026-11-09** [Preparing Azure App Service and Azure Functions TLS for post-quantum cryptography](https://azure.github.io/AppService/2026/11/09/post-quantum-tls-app-service-azure-functions.html) — Microsoft Azure App Service Blog ⭐⭐⭐  
+  Azure App Service와 Azure Functions가 인바운드 TLS 1.3 연결에 하이브리드 키교환 X25519MLKEM768 지원을 단계적으로 배포한다.
 - **2026-11-06** [Consultation Paper on Quantum-Safe Migration Guidance and Timelines for the Financial Sector (P019-2026)](https://www.mas.gov.sg/publications/consultations/2026/consultation-paper-on-quantum-safe-migration-guidance-and-timelines-for-the-financial-sector) — Monetary Authority of Singapore ⭐⭐⭐⭐ · [이슈 #46](https://github.com/litkhai/notes-on-quantum/issues/46)  
   싱가포르 MAS가 금융기관의 양자내성 전환 감독 기대와 일정을 제시하는 의견수렴안(P019-2026)을 공개했다(의견 마감 11/23).
 - **2026-11-05** [Post-Quantum Questions to Ask Your Vendors](https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors) — CISA / NSA / ASD's ACSC ⭐⭐⭐  
@@ -380,9 +419,14 @@ _최종 업데이트: 2026-11-09 (KST) · 기간: 대략 2025-10 ~ 2026-10 (일�
 - **(10월 3주 업데이트) 클라우드 규제 대응·고전 시뮬레이션 반격**: Amazon Braket이 FedRAMP Class C 범위에 포함돼 미 정부 활용 문턱이 낮아졌고([AWS](https://aws.amazon.com/about-aws/whats-new/2026/10/braket-fedramp-class-c/)), 에든버러대는 슈퍼컴 대비 약 5% 자원으로 가우시안 보손 샘플링을 에뮬레이션([Edinburgh](https://www.ed.ac.uk/news/software-advance-could-aid-quantum-progress)).
 - **(10월 4주 업데이트) FTQC 소프트웨어 스택의 검증·접근성 강화**: 구글은 검증 가능한 양자회로 컴파일 Kaggle 대회(상금 15만 달러, kickmix/Qualtran)를 열었고([Google](https://opensource.googleblog.com/2026/10/announcing-verifiable-quantum-circuit-compilation-competition-on-kaggle.html)), NVIDIA·율리히는 GPU 8,192개로 104큐비트 매직 스테이트 컬티베이션을 시뮬레이션했다([NVIDIA](https://nvidianews.nvidia.com/news/nvidia-runs-record-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre)). 오라클 OCI에서 Helios 베타 접근이 열렸고, 라이덴·Riverlane은 상관 디코딩이 저오류 영역에서 유효 거리 1을 잃는 문제와 해법을 제시([arXiv](https://arxiv.org/abs/2610.26785)).
 - **(11월 1주 업데이트) 초대형 회로 컴파일 도구와 클라우드 양자우위 주장**: 구글은 kickmix·Qualtran 기반 AI 회로 컴파일 논문으로 Kaggle 대회 기준선을 공개했고([arXiv](https://arxiv.org/abs/2610.23832)), 알토대 Pandora는 수십억 게이트 회로 컴파일을 보였다([npj QI](https://www.nature.com/articles/s41534-026-01402-z)). BlueQubit은 IBM 퍼블릭 클라우드 Nighthawk에서 RCS 양자우위를 주장했다(61큐비트, 19초 vs Frontier 약 110년)([BlueQubit](https://www.bluequbit.io/blog/quantum-advantage-ibm-nighthawk)). qBraid OS처럼 QPU 운영사용 과금·스케줄링 계층도 등장했다([qBraid](https://qbraid.com/press/qbraid-os-press-release)).
-- **알고리즘 이론의 진전**: 그래프 충돌 문제의 Ω(n^{2/3}) 질의 하한 추측을 반박하는 Õ(n^{11/17}) 양자 알고리즘 프리프린트([arXiv](https://arxiv.org/abs/2611.05356)). 이번 주 소프트웨어 분야의 신규 확인 항목은 이 1건뿐.
+- **알고리즘 이론의 진전**: 그래프 충돌 문제의 Ω(n^{2/3}) 질의 하한 추측을 반박하는 Õ(n^{11/17}) 양자 알고리즘 프리프린트([arXiv](https://arxiv.org/abs/2611.05356)).
+- **(11월 2주 업데이트) 하이브리드 워크플로의 '고전 쪽 병목' 공략**: 구글 퀀텀 AI 등은 Willow 측정 데이터를 ML 모델로 압축해 양자-고전 QMC를 수 자릿수 가속, 40큐비트 화학적 정확도를 보였다(실용적 우위 주장은 아님)([arXiv](https://arxiv.org/abs/2611.08151)). Q-CTRL Dynamics Simulator 등 파트너 함수가 IBM Quantum Functions 카탈로그에 잇따라 올라오고, IBM Quantum Platform은 HPC·양자 통합 관리 환경을 추가했다.
 
 ### 항목 (최신순)
+- **2026-11-11** [Q-CTRL Deploys Fire Opal Dynamics Simulator on IBM Quantum Functions, Achieving 12× Speedup on Nighthawk](https://quantumcomputingreport.com/q-ctrl-deploys-fire-opal-dynamics-simulator-on-ibm-quantum-functions-achieving-12x-speedup-on-nighthawk/) — Quantum Computing Report ⭐⭐⭐  
+  Q-CTRL이 페르미온 다체 동역학 시뮬레이션용 Dynamics Simulator를 IBM Quantum Functions 카탈로그에 출시해 API 호출 한 번으로 실행할 수 있게 했다.
+- **2026-11-05** [Machine learning quantum data to accelerate quantum Monte Carlo (arXiv:2611.08151)](https://arxiv.org/abs/2611.08151) — arXiv (Google Quantum AI·Sandia 등) ⭐⭐⭐  
+  구글 퀀텀 AI·샌디아 연구진이 양자 측정 데이터를 머신러닝 모델로 압축해 양자-고전 하이브리드 양자 몬테카를로(QMC)의 고전 처리 병목을 수 자릿수 줄였다.
 - **2026-11** [Breaking the quantum barriers for Graph Collision](https://arxiv.org/abs/2611.05356) — arXiv (arXiv:2611.05356) ⭐⭐⭐  
   그래프 충돌(graph collision) 문제에서 추측되던 Ω(n^{2/3}) 질의 하한을 반박하는 양자 알고리즘(Õ(n^{11/17}) 질의)을 제시한 논문이다.
 - **2026-10-30** [Ultra-large-scale compilation and manipulation of quantum circuits with Pandora (npj Quantum Information)](https://www.nature.com/articles/s41534-026-01402-z) — npj Quantum Information / Aalto University ⭐⭐  
